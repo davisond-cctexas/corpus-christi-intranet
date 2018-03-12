@@ -1,0 +1,17 @@
+bootstrap:
+  version: 3.3.7
+  css:
+    theme:
+      css/bootstrap-theme.min.css: {}
+      css/bootstrap.min.css: {}
+    js: js/bootstrap.min.js
+    dependencies:
+      # - core/jquery
+    #   - core/jquery
+
+
+
+
+
+
+    

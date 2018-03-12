@@ -1,0 +1,40 @@
+uuid: 1ff83cf8-161f-4f07-8d12-df97a618f9eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_headline_department
+    - node.type.department
+    - paragraphs.paragraphs_type.headline
+  module:
+    - entity_reference_revisions
+id: node.department.field_headline_department
+field_name: field_headline_department
+entity_type: node
+bundle: department
+label: Headline
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      headline: headline
+    target_bundles_drag_drop:
+      featured_link:
+        weight: 5
+        enabled: false
+      flex_content:
+        weight: 6
+        enabled: false
+      headline:
+        enabled: true
+        weight: 7
+      mission:
+        weight: 8
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,20 @@
+uuid: 2ab3a981-0aa9-43d4-bca1-318794b4c6d3
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_headline_employee_spotligt
+field_name: field_headline_employee_spotligt
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

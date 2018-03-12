@@ -1,0 +1,22 @@
+uuid: 8fc07f64-2488-4fff-8ae4-c9c93bea40cc
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cctx
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: cctx_powered
+theme: cctx
+region: header_top
+weight: -8
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

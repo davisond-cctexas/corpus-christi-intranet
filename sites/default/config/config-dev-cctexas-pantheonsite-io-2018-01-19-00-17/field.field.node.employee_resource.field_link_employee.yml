@@ -1,0 +1,23 @@
+uuid: f03f5e52-8a9b-4e99-b0ef-fa45a409f80c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link_employee
+    - node.type.employee_resource
+  module:
+    - link
+id: node.employee_resource.field_link_employee
+field_name: field_link_employee
+entity_type: node
+bundle: employee_resource
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 1
+field_type: link

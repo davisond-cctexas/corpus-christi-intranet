@@ -1,0 +1,18 @@
+uuid: e5f9dda7-dba4-4daa-9f7b-76038801fd26
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Employee Spotlight'
+type: employee_spotlight
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

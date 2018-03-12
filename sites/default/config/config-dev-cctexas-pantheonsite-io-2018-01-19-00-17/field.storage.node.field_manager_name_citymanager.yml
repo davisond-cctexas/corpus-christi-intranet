@@ -1,0 +1,20 @@
+uuid: e5021f8f-af27-4b2d-a640-8b9cbb6014a5
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_manager_name_citymanager
+field_name: field_manager_name_citymanager
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,68 @@
+uuid: d0f98bb2-8e65-497d-a149-a08dcfcf0bdf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.latest.body
+    - field.field.node.latest.field_latest_city_news_image
+    - field.field.node.latest.field_new_subhead
+    - field.field.node.latest.field_news_headline
+    - field.field.node.latest.field_news_publish_date
+    - node.type.latest
+  module:
+    - datetime
+    - image
+    - text
+    - user
+id: node.latest.default
+targetEntityType: node
+bundle: latest
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_latest_city_news_image:
+    weight: 105
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_new_subhead:
+    weight: 103
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_news_headline:
+    weight: 102
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_news_publish_date:
+    weight: 104
+    label: hidden
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

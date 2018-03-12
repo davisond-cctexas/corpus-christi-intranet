@@ -1,0 +1,18 @@
+uuid: 923ed111-5806-4ef0-b8e6-c9290fe8ae5b
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Detailed Info'
+type: detailedinfo
+description: 'Detailed information regarding a topic other than a city service (used for temporary or seasonal programs, initiatives, projects, etc.). Contains a title and body copy. May include contact information, schedules, fees, locations or other informative content.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

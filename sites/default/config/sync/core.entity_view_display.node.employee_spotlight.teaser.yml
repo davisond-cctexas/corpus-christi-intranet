@@ -1,0 +1,28 @@
+uuid: 21d2119c-5415-4559-9439-9a467ad349f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.employee_spotlight.body
+    - node.type.employee_spotlight
+  module:
+    - text
+    - user
+id: node.employee_spotlight.teaser
+targetEntityType: node
+bundle: employee_spotlight
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

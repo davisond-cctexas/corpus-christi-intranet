@@ -1,0 +1,9 @@
+uuid: 05ac8cda-c6e0-44f0-8ad3-57ccbbb207a7
+langcode: en
+status: true
+dependencies: {  }
+id: featured_content
+label: 'Featured content'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

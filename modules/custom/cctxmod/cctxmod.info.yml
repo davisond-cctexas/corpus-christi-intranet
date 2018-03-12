@@ -1,0 +1,7 @@
+name: CCTX
+type: module
+description: CCTX Custom Modifications
+core: 8.x
+package: Custom
+dependencies:
+  - bootstrap_site_alert

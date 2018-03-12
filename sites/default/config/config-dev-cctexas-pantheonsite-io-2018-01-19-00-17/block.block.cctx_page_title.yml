@@ -1,0 +1,20 @@
+uuid: 65be0419-9a76-4566-8a65-ec2dea320b30
+langcode: en
+status: false
+dependencies:
+  theme:
+    - cctx
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: cctx_page_title
+theme: cctx
+region: content
+weight: -9
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

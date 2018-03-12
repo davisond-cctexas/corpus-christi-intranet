@@ -1,0 +1,22 @@
+uuid: 01a82b4a-dbf5-47ea-9981-7ca8646a3ca0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_body_department
+    - paragraphs.paragraphs_type.mission
+  module:
+    - text
+id: paragraph.mission.field_body_department
+field_name: field_body_department
+entity_type: paragraph
+bundle: mission
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

@@ -1,0 +1,61 @@
+<?php
+
+/**
+ * @file
+ * The bootstrap_site_alert module file.
+ */
+
+/**
+ * Implements hook_page_top().
+ */
+function bootstrap_site_alert_page_top(array &$page_top) {
+  // If active this is set.
+  if (\Drupal::config('bootstrap_site_alert.settings')->get('bootstrap_site_alert_active') &&
+      \Drupal::currentUser()->hasPermission('view bootstrap site alerts')) {
+    // Get variables.
+    $level = \Drupal::config('bootstrap_site_alert.settings')->get('bootstrap_site_alert_severity');
+
+    $message = \Drupal::config('bootstrap_site_alert.settings')->get('bootstrap_site_alert_message');
+
+    $alert = '<div class="alert bs-site-alert ' . $level . '" role="alert"';
+
+    // If dismissable, add 'close' button. Also add 'display:none' to the alert
+    // element to prevent it from momentarily flickering onscreen before we
+    // have a chance to hide it.
+    if (\Drupal::config('bootstrap_site_alert.settings')->get('bootstrap_site_alert_dismiss')) {
+      $alert .= ' style="display:none;">';
+      $alert .= '<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>';
+    }
+    else {
+      $alert  .= '>';
+    }
+
+    $alert .= $message['value'];
+    $alert .= '</div>';
+
+    $page_top['bootstrap_site_alert'] = [
+      '#type' => 'inline_template',
+      '#template' => $alert,
+      '#weight' => 1000,
+    ];
+
+    // If dismissable, attach JavaScript file and configure drupalSettings.
+    if (\Drupal::config('bootstrap_site_alert.settings')->get('bootstrap_site_alert_dismiss')) {
+
+      // A random key is generated whenever an alert has changed. Pass this key
+      // to drupalSettings so that it is accessible via JavaScript.
+      $key = \Drupal::config('bootstrap_site_alert.settings')->get('bootstrap_site_alert_key');
+
+      $page_top['bootstrap_site_alert']['#attached'] = array(
+        'library' => array('bootstrap_site_alert/dismissed-cookie'),
+        'drupalSettings' => array(
+          'bootstrap_site_alert' => array(
+            'dismissedCookie' => array(
+              'key' => $key
+            ),
+          ),
+        ),
+      );
+    }
+  }
+}

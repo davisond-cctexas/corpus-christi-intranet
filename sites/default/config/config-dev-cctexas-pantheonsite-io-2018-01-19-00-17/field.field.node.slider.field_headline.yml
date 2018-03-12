@@ -1,0 +1,21 @@
+uuid: b5c6ddf5-592e-4957-a7cd-7fa4efcde02d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_headline
+    - node.type.slider
+  module:
+    - text
+id: node.slider.field_headline
+field_name: field_headline
+entity_type: node
+bundle: slider
+label: Headline
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

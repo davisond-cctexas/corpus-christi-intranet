@@ -1,0 +1,24 @@
+uuid: d4795692-96af-42f7-aa14-d5c826edc3d9
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - cctxmod
+  theme:
+    - cctx
+third_party_settings:
+  block_class:
+    classes: ''
+id: alertblock
+theme: cctx
+region: highlighted
+weight: -12
+provider: null
+plugin: alert_block
+settings:
+  id: alert_block
+  label: 'Alert block'
+  provider: cctxmod
+  label_display: '0'
+visibility: {  }

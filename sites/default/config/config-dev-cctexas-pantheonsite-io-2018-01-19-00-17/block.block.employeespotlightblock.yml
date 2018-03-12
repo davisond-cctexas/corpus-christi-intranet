@@ -1,0 +1,29 @@
+uuid: 9a2b5682-0b88-4cff-b2c4-08b039d2fb3f
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:991c1d11-e056-4f04-aef2-44fd9d16c641'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - cctx
+third_party_settings:
+  block_class:
+    classes: col-xl
+id: employeespotlightblock
+theme: cctx
+region: content
+weight: -2
+provider: null
+plugin: 'block_content:991c1d11-e056-4f04-aef2-44fd9d16c641'
+settings:
+  id: 'block_content:991c1d11-e056-4f04-aef2-44fd9d16c641'
+  label: 'Employee Spotlight'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

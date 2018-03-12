@@ -1,0 +1,22 @@
+uuid: f5d8fc8f-ce2a-44a4-b758-872aa056d78f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.employee_resource
+  module:
+    - text
+id: node.employee_resource.body
+field_name: body
+entity_type: node
+bundle: employee_resource
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

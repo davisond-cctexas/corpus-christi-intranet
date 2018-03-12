@@ -1,0 +1,28 @@
+uuid: 74cddffd-9099-4850-b7d6-1d9b98a75967
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.city_manager.body
+    - node.type.city_manager
+  module:
+    - text
+    - user
+id: node.city_manager.teaser
+targetEntityType: node
+bundle: city_manager
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

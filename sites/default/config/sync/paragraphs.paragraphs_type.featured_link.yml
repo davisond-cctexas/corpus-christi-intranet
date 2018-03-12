@@ -1,0 +1,9 @@
+uuid: f1132cfb-3340-46be-8584-2a0a6d978b1f
+langcode: en
+status: true
+dependencies: {  }
+id: featured_link
+label: 'Featured Link'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

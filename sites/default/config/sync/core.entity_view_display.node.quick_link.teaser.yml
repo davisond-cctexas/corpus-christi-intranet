@@ -1,0 +1,22 @@
+uuid: 79cbf33d-121f-46f8-be3a-6f0c3370d60f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.quick_link.field_link
+    - node.type.quick_link
+  module:
+    - user
+id: node.quick_link.teaser
+targetEntityType: node
+bundle: quick_link
+mode: teaser
+content:
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_link: true

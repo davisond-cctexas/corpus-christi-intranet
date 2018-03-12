@@ -1,0 +1,47 @@
+bootstrap:
+  version: 3.3.7
+  css:
+    theme:
+      vendor/bootstrap/css/ionicons.min: {}
+    js:
+        js/jquery.min.js: {}
+        js/bootstrap.bundle.min.js: {}
+        js/theme.js: {}
+        js/custom.js: {}
+
+base:
+  version: VERSION
+  css:
+    base:
+      css/styles.css: {}
+      css/drupal.css: {}
+  js:
+    js/theme.js: {}
+  dependencies:
+    - core/jquery
+
+#webfonts:
+# version: VERSION
+# css:
+#    theme: //fonts.googleapis.com/css?family=PT+Sans:400,700: {}
+
+font-awesome:
+  version: 4.7.0
+  css:
+    theme:
+      vendor/font-awesome/css/font-awesome.min.css: {}
+
+ionicons:
+  version: 2.0.1
+  css:
+    theme:
+      vendor/ionicons/css/ionicons.css: {}
+      vendor/ionicons/css/ionicons.min.css: {}
+
+
+
+
+
+
+
+  

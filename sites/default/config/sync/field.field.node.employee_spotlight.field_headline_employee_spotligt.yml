@@ -1,0 +1,21 @@
+uuid: c7b1dd7e-5ca6-4b7b-b3d2-ccb12b634458
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_headline_employee_spotligt
+    - node.type.employee_spotlight
+  module:
+    - text
+id: node.employee_spotlight.field_headline_employee_spotligt
+field_name: field_headline_employee_spotligt
+entity_type: node
+bundle: employee_spotlight
+label: Headline
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

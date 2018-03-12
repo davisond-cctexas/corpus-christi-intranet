@@ -1,0 +1,42 @@
+uuid: 8dc8bef8-fde4-41a9-b88a-0d930e4f9e11
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.employee_resource.body
+    - field.field.node.employee_resource.field_link_employee
+    - node.type.employee_resource
+  module:
+    - link
+    - text
+    - user
+id: node.employee_resource.default
+targetEntityType: node
+bundle: employee_resource
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_link_employee:
+    weight: 103
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,8 @@
+uuid: 8ba27af2-b5bf-4d98-9bdb-1067f24649ba
+langcode: en
+status: true
+dependencies: {  }
+id: citynet
+label: Citynet
+locked: false
+pattern: M

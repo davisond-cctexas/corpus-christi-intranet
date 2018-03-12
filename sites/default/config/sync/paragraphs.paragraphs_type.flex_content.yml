@@ -1,0 +1,9 @@
+uuid: 05679041-0104-4dec-9276-510f305b94ff
+langcode: en
+status: true
+dependencies: {  }
+id: flex_content
+label: 'Flex content'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,19 @@
+uuid: 8b350bcb-6126-47c3-9d89-253d31408eea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title_flex
+    - paragraphs.paragraphs_type.flex_content
+id: paragraph.flex_content.field_title_flex
+field_name: field_title_flex
+entity_type: paragraph
+bundle: flex_content
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

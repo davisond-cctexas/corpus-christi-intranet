@@ -1,0 +1,19 @@
+uuid: 425dbb91-1a82-429f-8baf-26c44fd565f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news_headline
+    - node.type.latest
+id: node.latest.field_news_headline
+field_name: field_news_headline
+entity_type: node
+bundle: latest
+label: 'News Headline'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

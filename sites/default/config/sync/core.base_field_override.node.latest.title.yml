@@ -1,0 +1,18 @@
+uuid: a3c3510a-c2ad-43ec-9985-d236c2e46e28
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.latest
+id: node.latest.title
+field_name: title
+entity_type: node
+bundle: latest
+label: 'Latest City News'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

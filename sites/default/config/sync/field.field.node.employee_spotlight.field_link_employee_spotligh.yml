@@ -1,0 +1,23 @@
+uuid: a9052333-2ee0-44a1-85b0-8247dd7f4433
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link_employee_spotligh
+    - node.type.employee_spotlight
+  module:
+    - link
+id: node.employee_spotlight.field_link_employee_spotligh
+field_name: field_link_employee_spotligh
+entity_type: node
+bundle: employee_spotlight
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

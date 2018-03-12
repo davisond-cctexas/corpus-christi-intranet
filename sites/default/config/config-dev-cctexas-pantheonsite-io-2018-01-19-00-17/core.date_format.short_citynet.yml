@@ -1,0 +1,8 @@
+uuid: 56d49758-8cbb-4027-9a6a-c12f830b401a
+langcode: en
+status: true
+dependencies: {  }
+id: short_citynet
+label: Short
+locked: false
+pattern: d

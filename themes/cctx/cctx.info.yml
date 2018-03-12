@@ -1,0 +1,33 @@
+name: CCTX
+type: theme
+description: 'INTRANET FRONT-END THEMEING THAT HOOKS INTO DRUPAL CORE API...(BE CAREFUL BEFORE YOU RUN AN DRUPAL UPDATE MIGHT BREAK THE SITE)'
+core: 8.x
+base theme : false
+libraries:
+  - cctx/bootstrap
+  - cctx/base
+  - cctx/webfonts
+  - cctx/font-awesome
+  - cctx/ionicons
+
+regions:
+  header_top: 'Header Top'
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  secondary_menu : 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  highlighted: 'Highlighted'
+  headline: 'Headline'
+  breadcrumb: Breadcrumb
+  before_content : 'Before Content'
+  content : Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar secound'
+  after_content: 'After Content'
+  footer_first: 'Footer first'
+  footer_secound: 'Footer secound'
+  footer_third: 'Footer third'
+  footer_bottom_left: 'Footer bottom left'
+  footer_bottom_right: 'Footer bottom right'
+  jumbotron: 'Jumbotron'

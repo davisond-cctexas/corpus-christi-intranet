@@ -1,0 +1,29 @@
+uuid: 13c523eb-fda1-4273-895f-5bce28d99a44
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:38459ab1-f7b5-4e2e-8023-321a4c0adea0'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - cctx
+third_party_settings:
+  block_class:
+    classes: ''
+id: sliderlinks
+theme: cctx
+region: highlighted
+weight: -9
+provider: null
+plugin: 'block_content:38459ab1-f7b5-4e2e-8023-321a4c0adea0'
+settings:
+  id: 'block_content:38459ab1-f7b5-4e2e-8023-321a4c0adea0'
+  label: 'Slider links'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

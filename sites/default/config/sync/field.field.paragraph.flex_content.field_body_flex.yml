@@ -1,0 +1,22 @@
+uuid: 81d3392a-e50f-4f7d-90ad-ef6a0d101b18
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_body_flex
+    - paragraphs.paragraphs_type.flex_content
+  module:
+    - text
+id: paragraph.flex_content.field_body_flex
+field_name: field_body_flex
+entity_type: paragraph
+bundle: flex_content
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

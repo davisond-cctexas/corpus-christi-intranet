@@ -1,0 +1,21 @@
+uuid: 55f6cfef-395f-4bfe-b86e-8a76ffd9af04
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_headline_citymanager
+    - node.type.city_manager
+  module:
+    - text
+id: node.city_manager.field_headline_citymanager
+field_name: field_headline_citymanager
+entity_type: node
+bundle: city_manager
+label: Headline
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

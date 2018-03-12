@@ -1,0 +1,37 @@
+uuid: 7cb1d02a-cb6d-4487-9b96-498a502a326a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_flex_content
+    - node.type.department
+    - paragraphs.paragraphs_type.flex_content
+  module:
+    - entity_reference_revisions
+id: node.department.field_flex_content
+field_name: field_flex_content
+entity_type: node
+bundle: department
+label: 'Flex content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      flex_content: flex_content
+    target_bundles_drag_drop:
+      featured_link:
+        weight: 4
+        enabled: false
+      flex_content:
+        enabled: true
+        weight: 5
+      mission:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

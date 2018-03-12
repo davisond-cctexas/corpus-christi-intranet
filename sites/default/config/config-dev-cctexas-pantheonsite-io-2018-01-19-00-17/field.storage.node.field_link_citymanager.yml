@@ -1,0 +1,19 @@
+uuid: 4099c0e8-ada1-4a95-85c3-29c383ad1d4b
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_link_citymanager
+field_name: field_link_citymanager
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

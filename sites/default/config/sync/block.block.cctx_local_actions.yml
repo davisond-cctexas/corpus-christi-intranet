@@ -1,0 +1,20 @@
+uuid: 411bcc54-842d-4df4-b5c4-db49e4f5b089
+langcode: en
+status: true
+dependencies:
+  theme:
+    - cctx
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: cctx_local_actions
+theme: cctx
+region: content
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

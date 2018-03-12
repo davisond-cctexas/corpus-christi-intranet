@@ -1,0 +1,27 @@
+uuid: c557d729-b280-4a81-80a6-3bab9db40a89
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video_citymanager
+    - node.type.city_manager
+  module:
+    - file
+id: node.city_manager.field_video_citymanager
+field_name: field_video_citymanager
+entity_type: node
+bundle: city_manager
+label: Video
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt mp4 mov avi'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

@@ -1,0 +1,19 @@
+uuid: 08ada735-2365-4f59-bc13-cf2346b43046
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_new_subhead
+    - node.type.latest
+id: node.latest.field_new_subhead
+field_name: field_new_subhead
+entity_type: node
+bundle: latest
+label: 'New Subhead'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

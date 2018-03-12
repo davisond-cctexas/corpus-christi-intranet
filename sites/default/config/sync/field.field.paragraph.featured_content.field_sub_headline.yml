@@ -1,0 +1,19 @@
+uuid: 5b06b672-f69d-4c32-a709-da609e422d0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_sub_headline
+    - paragraphs.paragraphs_type.featured_content
+id: paragraph.featured_content.field_sub_headline
+field_name: field_sub_headline
+entity_type: paragraph
+bundle: featured_content
+label: 'Sub headline'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

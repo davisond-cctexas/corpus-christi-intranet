@@ -1,0 +1,28 @@
+uuid: a1841646-9ce4-4477-8462-fe27f38ba696
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.citynet_views
+  module:
+    - block_class
+    - views
+  theme:
+    - cctx
+third_party_settings:
+  block_class:
+    classes: ''
+id: views_block__citynet_views_block_5
+theme: cctx
+region: highlighted
+weight: -10
+provider: null
+plugin: 'views_block:citynet_views-block_5'
+settings:
+  id: 'views_block:citynet_views-block_5'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

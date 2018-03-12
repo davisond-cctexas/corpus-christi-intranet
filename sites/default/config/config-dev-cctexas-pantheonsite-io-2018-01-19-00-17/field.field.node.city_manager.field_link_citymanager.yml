@@ -1,0 +1,23 @@
+uuid: 8110d011-26f2-41b6-802e-caf61acfae65
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link_citymanager
+    - node.type.city_manager
+  module:
+    - link
+id: node.city_manager.field_link_citymanager
+field_name: field_link_citymanager
+entity_type: node
+bundle: city_manager
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 1
+field_type: link

@@ -1,0 +1,22 @@
+uuid: 36c1e8c9-c38a-4898-8fb9-2964b237751e
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - cctx
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: cctx_help
+theme: cctx
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

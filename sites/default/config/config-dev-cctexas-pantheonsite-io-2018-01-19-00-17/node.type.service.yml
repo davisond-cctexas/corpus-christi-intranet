@@ -1,0 +1,18 @@
+uuid: c728d8ba-8dde-4d27-b370-5f39c0cc3b81
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Service
+type: service
+description: 'A description of a regular service provided by City departments or staff to citizens. Contains a title and description. May include contact information, schedules, fees, locations, or other informative content.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

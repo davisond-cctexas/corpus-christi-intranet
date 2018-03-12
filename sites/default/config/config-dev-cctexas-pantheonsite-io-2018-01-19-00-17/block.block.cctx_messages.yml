@@ -1,0 +1,22 @@
+uuid: ec97eece-8383-4e1f-9d7e-a9f77d04f354
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cctx
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: cctx_messages
+theme: cctx
+region: highlighted
+weight: -11
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 8712a39f-fb0b-4371-a60e-05c4ada373d5
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - cctx
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: cctx_content
+theme: cctx
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

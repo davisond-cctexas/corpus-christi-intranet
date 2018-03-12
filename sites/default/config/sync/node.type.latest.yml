@@ -1,0 +1,17 @@
+uuid: 8a65640b-c829-4e45-a453-189dd3ca565e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Latest City News'
+type: latest
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

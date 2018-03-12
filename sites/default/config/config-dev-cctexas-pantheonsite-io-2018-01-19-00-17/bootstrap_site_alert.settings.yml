@@ -1,0 +1,14 @@
+bootstrap_site_alert_active: true
+bootstrap_site_alert_severity: alert-danger
+bootstrap_site_alert_dismiss: true
+bootstrap_site_alert_message:
+  value: "<p>fasdfsdf</p>\r\n"
+  format: full_html
+bootstrap_site_alert_key: '8!^"fmuUb_L<7n!S'
+_core:
+  default_config_hash: IKnRc16UMnleKsZqgrWChFck9giaAQN6UTJ0AslLglw
+description: null
+actions: null
+form_build_id: form-nF0bRj2-ze-Pl1iksEY29Og-AOM3zsPCGNWehB8GpdI
+form_token: inrvj2cXGVDOgsV5h_QeJKHvqTPRECl2fgl8y1i2nKE
+form_id: bootstrap_site_alert_admin

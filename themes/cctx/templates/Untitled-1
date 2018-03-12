@@ -1,0 +1,20 @@
+Alerts: Remove line and add shield. Make dismissible
+Event: go back to admin/content after adding new event
+Remove ckeditor_video
+Change menu colour (toolbar) back to black instead of orange
+When content is saved redirect to content listing page or content saved 
+remove yellow admin toolbar color
+IT alert missing icon 
+When new user is created after they log in there is css missing on whole page
+http://web01-stg-cctx-app01.ccpd.net/user/login => user login is missing styles
+Upcoming event missing css on inside pages and images on homepage  
+Latest news missing css on inside pages and images on homepage 
+
+-------------------------------------------------------
+City Manager: Upload PDF instead of link to document
+Get Policies buttons ready
+Pdf link => view pdf    
+City Manager => Missing images
+City manager Video Pop up or link => ability to update video 
+Inside pages => for now you can just link the HR and IT html pages as placeholders untill the theme is working  
+Slider images => replace slider images and therir content in admin section 

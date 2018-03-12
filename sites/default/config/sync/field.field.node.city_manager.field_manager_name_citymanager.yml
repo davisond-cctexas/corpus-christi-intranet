@@ -1,0 +1,21 @@
+uuid: abdbd365-9c02-43c5-b60b-687a227e0fcc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_manager_name_citymanager
+    - node.type.city_manager
+  module:
+    - text
+id: node.city_manager.field_manager_name_citymanager
+field_name: field_manager_name_citymanager
+entity_type: node
+bundle: city_manager
+label: 'Manager name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,22 @@
+uuid: 843104d2-a7eb-4fd1-abce-e6b9ecc5d3b2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cctx
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: cctx_breadcrumbs
+theme: cctx
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

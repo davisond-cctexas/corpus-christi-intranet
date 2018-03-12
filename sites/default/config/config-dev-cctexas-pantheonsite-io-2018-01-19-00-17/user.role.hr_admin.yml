@@ -1,0 +1,9 @@
+uuid: 8ab85989-69eb-42c2-959f-4b4a13783044
+langcode: en
+status: true
+dependencies: {  }
+id: hr_admin
+label: 'HR Admin'
+weight: 5
+is_admin: null
+permissions: {  }

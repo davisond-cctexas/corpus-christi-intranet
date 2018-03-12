@@ -1,0 +1,14 @@
+uuid: 500b027a-9f1f-49d4-8c4e-3c3628d999db
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.hr_admin
+  module:
+    - user
+id: user_add_role_action.hr_admin
+label: 'Add the HR Admin role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: hr_admin

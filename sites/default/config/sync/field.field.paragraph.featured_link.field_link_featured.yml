@@ -1,0 +1,23 @@
+uuid: fd93ba11-eb8e-4e0e-97a9-2785da2f0674
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_link_featured
+    - paragraphs.paragraphs_type.featured_link
+  module:
+    - link
+id: paragraph.featured_link.field_link_featured
+field_name: field_link_featured
+entity_type: paragraph
+bundle: featured_link
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 1
+field_type: link

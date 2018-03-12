@@ -1,0 +1,29 @@
+uuid: bd8aa088-03a2-4e5b-8cae-07f220bb9280
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:e5f691b9-6dbe-4787-96aa-f45cfdbdb3cd'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - cctx
+third_party_settings:
+  block_class:
+    classes: ''
+id: citymanager
+theme: cctx
+region: sidebar_first
+weight: -8
+provider: null
+plugin: 'block_content:e5f691b9-6dbe-4787-96aa-f45cfdbdb3cd'
+settings:
+  id: 'block_content:e5f691b9-6dbe-4787-96aa-f45cfdbdb3cd'
+  label: 'City Manager'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

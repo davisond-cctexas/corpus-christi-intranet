@@ -1,0 +1,9 @@
+uuid: 223a22da-47d7-4340-a1c2-6c8c7c67617c
+langcode: en
+status: true
+dependencies: {  }
+id: mission
+label: Mission
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

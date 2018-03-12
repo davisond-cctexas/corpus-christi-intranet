@@ -1,0 +1,14 @@
+div.main-alert button.close {
+  background-attachment: scroll;
+  background-color: unset;
+  border: unset;
+  border-radius: 13px;
+  float: right;
+  margin: 0;
+  overflow: hidden;
+  padding: 0 2px;
+  position: absolute;;
+  right: 6px;
+  cursor: pointer;
+  margin-top: -25px;
+}

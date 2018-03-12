@@ -1,0 +1,26 @@
+uuid: 64cff82b-e45e-4031-b189-faa8a12069f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.notification.body
+    - node.type.notification
+  module:
+    - text
+    - user
+id: node.notification.default
+targetEntityType: node
+bundle: notification
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

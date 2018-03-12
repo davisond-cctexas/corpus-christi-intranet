@@ -1,0 +1,14 @@
+uuid: 7f421947-f8b7-47c3-8120-1c8043775b6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.it_admin
+  module:
+    - user
+id: user_add_role_action.it_admin
+label: 'Add the IT Admin role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: it_admin

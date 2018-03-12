@@ -1,0 +1,22 @@
+uuid: 9e0e015f-9368-41cc-b397-b54549b27c5d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_body_featured
+    - paragraphs.paragraphs_type.featured_link
+  module:
+    - text
+id: paragraph.featured_link.field_body_featured
+field_name: field_body_featured
+entity_type: paragraph
+bundle: featured_link
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

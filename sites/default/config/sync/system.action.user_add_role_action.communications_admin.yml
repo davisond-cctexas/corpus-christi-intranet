@@ -1,0 +1,14 @@
+uuid: 821f456b-6c44-44bd-b1d1-3b7bbb4d07bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.communications_admin
+  module:
+    - user
+id: user_add_role_action.communications_admin
+label: 'Add the Communications Admin role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: communications_admin

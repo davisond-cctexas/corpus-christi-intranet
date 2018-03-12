@@ -1,0 +1,28 @@
+uuid: 1c5f1d3a-5478-48f5-9e96-aeb01abeb322
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.employee_resource.body
+    - node.type.employee_resource
+  module:
+    - text
+    - user
+id: node.employee_resource.teaser
+targetEntityType: node
+bundle: employee_resource
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

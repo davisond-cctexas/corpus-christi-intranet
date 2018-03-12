@@ -1,0 +1,9 @@
+
+
+<?php 
+
+function twig_preprocess_html(&$variables){
+	$variables['attributes']['class'][] = 'twig';
+}
+
+?>

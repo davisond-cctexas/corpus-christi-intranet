@@ -1,0 +1,27 @@
+uuid: 75f2db2e-9c8f-4255-989e-c6d201353de5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pdf_file
+    - node.type.city_manager
+  module:
+    - file
+id: node.city_manager.field_pdf_file
+field_name: field_pdf_file
+entity_type: node
+bundle: city_manager
+label: 'PDF File'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file
