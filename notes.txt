@@ -1,0 +1,41 @@
+
+ block--sliderlinks.html.twig*
+ field--field-headline-department.html.twig*
+ html.html.twig*
+ menu--main.html.twig*
+ page--front.html.twig*
+ page.html.twig*
+ page-title.html.twig*
+ panelizer-view-mode.html.twig*
+ paragraph--featured_content.html.twig*
+ paragraph--mission.html.twig*
+ Untitled-1*
+ Untitled-2.twig*
+ views-bootstrap-tab.html.twig*
+
+
+
+
+
+admin_toolbar/
+backup_migrate/
+block_class/
+bootstrap_site_alert/
+colorbox/
+colorbox_field_formatter/
+colorbox_inline/
+colorbox_load/
+ctools/
+devel/
+entity_reference_revisions/
+menu_block/
+ng_lightbox/
+panelizer/
+panels/
+paragraphs/
+README.txt*
+twig_tweak/
+video/
+video_embed_field/
+views_bootstrap/
+views_slideshow/
