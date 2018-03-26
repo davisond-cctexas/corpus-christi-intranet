@@ -1,0 +1,266 @@
+history 
+apt update
+nginx -v
+apt install nginx
+clear
+ls
+/var/www/html/
+task
+task calendar
+la
+task ghistory
+task ls
+task burndown
+tas
+task 
+ls 
+ls -all
+ls all
+man
+task add "permit app status report"
+task 1 done
+cleaqr
+k lear
+task add "gfasdfasd"
+task help
+man task
+cklear
+tasl
+apt install taskwarrior
+/
+pwd
+d
+mysqldump -u root -p cctx_intranet_db > cctx_intranet_db.sql
+mysql -u root -p
+corpus-christi-intranet/
+/home/davisond/
+git branch
+git status
+service mysql restart
+nano mysqld.cnf
+nano mysqld.cnf ]
+/etc/mysql/mysql.conf.d/
+nano /etc/mysql/my.cnf
+ping 172.24.149.181
+ping
+hostname
+ip addr
+netstat -tln
+shutdown  -r 0
+shutdown  -r n
+sudo nano /etc/apache2/apache2.conf
+sudo systemctl status apache2.service
+top
+sudo systemctl restart apache2.service
+sudo systemctl start apache2.service
+service apache2 restart
+sudo service apache2 restart
+edit /etc/apache2/apache2.conf
+sudo dpkg-reconfigure -plow phpmyadmin
+git push origin updates
+git commit -m "After drupalconsole intall and composer update"
+git add .
+drupal cr all
+drupal
+composer global require drupal/console-launcher:~1.0
+composer global config prefer-stable true
+composer global config minimum-stability dev
+git commit -m "Installed boxout and tour ui modules"
+drupal self-update
+drupa;
+var/www/html/
+chmod +x /usr/local/bin/drupal
+mv drupal.phar /usr/local/bin/drupal
+curl https://drupalconsole.com/installer -L -o drupal.phar
+contrib/
+modules/
+git commit -m "unminifyed styles.css to easier to change look and feel"
+git commit -m "updates"
+git checkout updates
+git branch updates
+chmod -R 777 .gitignore 
+git checkout develop
+../
+-rwxrwxrwx 1 root root  711 Mar 13 13:18 page-title.html.twig*
+-rwxrwxrwx 1 root root  15K Mar 13 14:10 page.html.twig*
+-rwxrwxrwx 1 root root 7.1K Mar 13 14:10 page--front.html.twig*
+-rwxrwxrwx 1 root root 1.6K Mar 13 13:18 menu--main.html.twig*
+-rwxrwxrwx 1 root root 1.8K Mar 13 13:18 html.html.twig*
+-rwxrwxrwx 1 root root 2.0K Mar 13 13:18 field--field-headline-department.html.twig*
+block--sliderlinks.html.twig*
+templates/
+cctx/
+themes/
+parameters:
+html/
+nano page--front.html.twig 
+themes/cctx/
+chmod -R 777 modules/
+chmod -R 777 themes/
+var/www/
+chmod -R 777 files/
+default/
+sites/
+chmod -R 777 sites/
+mc
+composer browse
+composer
+apt remove composer
+composer home
+composer --version
+composer -v
+sudo apt-get remove --auto-remove composer
+sudo apt-get remove composer
+rm drupal8.dev/
+mysql -u root -p cctx_intranet_db < /home/davisond/corpus-christi-intranet/cctx_intranet_db_feb12.sql
+git clone git@github.com:davisond-cctexas/corpus-christi-intranet.git
+git checkout master
+drush
+composer update
+composer install
+/usr/local/bin/
+omposer global require drush/drush:8.*
+sudo mv composer.phar /usr/local/bin/composer
+drupal8.dev/
+composer update drupal/console --with-dependencies
+composer global update
+composer create-project \
+drupal-composer/drupal-project:8.x-dev \
+drupal8.dev \
+--prefer-dist \
+--no-progress \
+--no-interaction
+drupalconsole
+drupalconcole
+composer require drupal/console:~1.0 \
+--prefer-dist \
+--optimize-autoloader
+tail -f kern.log
+tail -f auth.log 
+tail -f apt/history.log 
+tail -f dmesg
+dmesg 
+tail -f demesg
+tail -f lastlog 
+tail -f syslog
+var/log/
+cd var
+composer global require drush/drush:9
+chmod -R 777 html/
+tail -f /var/log/apache2/error.log
+apt install composer
+sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer-setup.php 
+curl -sS https://getcomposer.org/installer -o composer-setup.php
+php -r "if (hash_file('SHA384', 'composer-setup.php') === '669656bab3166a7aff8a7506b8cb2d1c292f042046c5a994c43155c0be6190fa0355160742ab2e1c88d40d5be660b410') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+cd ~
+sudo apt-get install php7.0-gd
+php -v
+nano /etc/php/7.0/cli/php.ini 
+lamp 
+php -h
+php -i
+php -c
+a2enmod gd
+a2enmod dom
+nano test.php 
+touch test.php
+nano php.ini 
+conf.d/
+apache2/
+apache2
+mods-available/
+7.0/
+etc/php/
+phpinfo
+echo phpinfo();
+apt install php70-gd
+apt install php5-gd
+cd bin/
+cd usr/
+usr/bin
+/usr/bin/php
+which php
+sudo apt-get install php-xml
+/etc/php/7.0/
+nano apache2.conf 
+/etc/apache2/
+a2enmod rewrite 
+apache2ctl -M 
+etc/init.d/apache2 status
+etc/init.d/apache2 restart
+apache2 restart
+apache2 -h
+apt install php5-curl
+829: command not found
+Get:12: command not found
+Get:11: command not found
+ty.ubuntu.com/ubuntu xenial-security/universe amd64 Packages [322 kB]
+Reading package lists... Done
+Fetched 4,364 kB in 5s (829 kB/s)                      
+Get:12 http://security.ubuntu.com/ubuntu xenial-security/universe i386 Packages [281 kB]
+Get:11 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages [322 kB]
+Get:10 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages [417 kB]
+Get:9 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages [463 kB]
+Get:8 http://security.ubuntu.com/ubuntu xenial-security InRelease [102 kB]                              
+Get:7 http://us.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages [551 kB]                
+Get:6 http://us.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages [596 kB]                   
+Get:5 http://us.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages [687 kB]                           
+Get:4 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [740 kB]                 
+-backports InRelease [102 kB]
+sudo apt-get update / sudo apt-get install php5-curl
+cli/
+php/
+etc/
+apt install php7.0-mbstring
+where php
+chmod sites/
+chmod -R 777 settings.php
+git commit -m "merged develop with master and pushed by using git push origin develop:master | Added files folder to drupal "
+git pull
+git push origin develop:master
+git show-branch
+git log
+git fetch develop
+git merge master
+git checkout origin/develop
+git checkout origin/master
+git branch master
+git push origin HEAD:master --force
+git push 
+git push master HEAD:master
+git push -u origin/develop
+git merge origin/develop
+git merge develop
+git push -u master
+git branch origin/develop
+files/
+git push -u origin develop
+git commit -m "commit after transferring from home/davison to /var/www/html"
+home/davisond/
+cd /
+chmod -R 777 default/
+/home/davisond/corpus-christi-intranet/
+apropos spell --help
+apropos spell
+apropos sepell
+/etc/apache2/conf-available/
+co
+rm corpus-christi-intranet/
+ln --help
+cd 
+git push -u origin master
+git remote add origin git@github.com:davisond-cctexas/corpus-christi-intranet.git
+git commit -m "first commit"
+git init
+git config --global user.email "davisond@cctexas.com"
+git commit -m "First Push"
+git
+vi id_rsa.pub 
+cd ~/.ssh/
+ssh-keygen -t rsa -b 4096 -C "davisond@cctexas.com"
+git clone ssh://codeserver.dev.805218b0-1aeb-471b-83b9-52e0b25b1192@codeserver.dev.805218b0-1aeb-471b-83b9-52e0b25b1192.drush.in:2222/~/repository.git corpus-christi-intranet
+apt install mc
+mcedit
+rm orpus-christi-intranet/
+git clone ssh://codeserver.dev.805218b0-1aeb-471b-83b9-52e0b25b1192@codeserver.dev.805218b0-1aeb-471b-83b9-52e0b25b1192.drush.in:2222/~/repository.git orpus-christi-intranet
+apt install fish
