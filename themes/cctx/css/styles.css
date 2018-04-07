@@ -160,7 +160,7 @@ h6 {
 
 p {
     margin-top: 0;
-    margin-bottom: 1rem
+    margin-bottom: 0;
 }
 
 abbr[data-original-title],
@@ -8346,8 +8346,8 @@ body {
 
 .navbar {
     margin-bottom: .5rem;
-    border-top: 7px solid #797979;
-    border-bottom: 5px solid #ea9c37
+    border-top: 3px solid #797979;
+    border-bottom: 3px solid #ea9c37
 }
 
 .navbar-light {
@@ -8371,7 +8371,7 @@ body {
 
 .wrapper {
     position: relative;
-    max-width: 1600px;
+    max-width: 1800px;
     min-height: 100%;
     margin: 0 auto;
     padding-bottom: 15.625rem;
@@ -8401,7 +8401,8 @@ body {
 }
 
 .header-brand>img {
-    max-width: 3.1875rem;
+    /*max-width: 3.1875rem;*/
+    max-width:  7.1875rem;
     height: auto
 }
 
@@ -8693,6 +8694,7 @@ body {
 .main-alert .alert {
     display: -webkit-box;
     display: flex;
+    height: 66px;
     margin-bottom: 2px;
     padding: 1.25rem .9375rem;
     border-radius: .25rem;
