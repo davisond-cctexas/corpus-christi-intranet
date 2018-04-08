@@ -26,8 +26,7 @@
         <div class="container-fluid">
           <div class="row align-items-center">
             <div class="col-3 col-md-3">
-                <h1>{{ dump(user) }} </h1>
-                {{ dump() }}
+
 
               <!-- Brand -->
               <div class="header-brand">
@@ -75,6 +74,7 @@
           <div class="collapse navbar-collapse" id="navbar">
       
             {{ page.primary_menu }}
+              {#{{ page.breadcrumb }}#}
         {# .btn-navbar is used as the toggle for collapsed navbar content #}
         {% if page.navigation_collapsible %}
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">

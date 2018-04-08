@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{ base_path ~ directory }}/css/styles.css">
     <!-- endbuild -->
 
-   
+
 
     <!-- LINE
     ================================================== -->
@@ -16,7 +16,7 @@
     <!-- WRAPPER
     ================================================== -->
     <div class="wrapper">
-      
+
       <!-- HEADER
       ================================================== -->
       <div class="header">
@@ -29,7 +29,7 @@
               <div class="header-brand">
                 <img src="{{ base_path ~ directory }}/img/brand.svg" alt="City of Corpus Chriti Texas">
               </div>
-              
+
             </div>
             <div class="col-9 col-md-6">
                 {#{{ page.header_top }}#}
@@ -80,7 +80,8 @@
 
         </nav>
 
-
+        <h1>davisond</h1>
+{{ page.breadcrumb }}
         <!-- Image and text -->
         <nav class="navbar fixed-bottom  navbar-light bg-dark">
           <a class="navbar-brand" href="#">
@@ -115,6 +116,20 @@
 
 
 
+{#<h2>#}
+{#<pre>#}
+
+     {#{% for i  in range(0, 3) %}#}
+         {#{{ i }}#}
+     {#{% endfor %}#}
+
+
+
+    {#{{ dump(_context|keys) }}#}
+  {#{{ dump(page) }}#}
+
+  {#</pre>#}
+{#</h2>#}
 
 
         <div class="alert alert-success" role="alert">
@@ -150,7 +165,7 @@
             
           <!-- Collapse -->
           <div class="collapse navbar-collapse" id="navbar" style="margin-top: -10px;">
-          {{ dump(url) }}
+
             {{ page.primary_menu }}
         {# .btn-navbar is used as the toggle for collapsed navbar content #}
         {% if page.navigation_collapsible %}
