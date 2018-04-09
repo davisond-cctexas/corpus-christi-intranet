@@ -1,10 +1,10 @@
 
   <!-- CSS Plugins -->
-    <link rel="stylesheet" href="{{ base_path ~ directory }}/vendor/ionicons/css/ionicons.min.css">
+    {#<link rel="stylesheet" href="{{ base_path ~ directory }}/vendor/ionicons/css/ionicons.min.css">#}
 
     <!-- CSS Global -->
     <!-- build:css assets/css/theme.min.css -->
-    <link rel="stylesheet" href="{{ base_path ~ directory }}/css/styles.css">
+    {#<link rel="stylesheet" href="{{ base_path ~ directory }}/css/styles.css">#}
     <!-- endbuild -->
 
 
@@ -16,44 +16,101 @@
     ================================================== -->
     <div class="wrapper">
 
+
+      {#<nav class="navbar fixed-top navbar-light bg-dark" style="" >#}
+
+        {#<div class="row">#}
+          {#<a class="navbar-brand" href="#">#}
+            {#<img src="http://web01-prd-cctx-app01.ccpd.net/themes/cctx/img/brand.svg" width="100" height="100" alt="">#}
+
+          {#</a>#}
+        {#</div>#}
+
+
+        {#<div class="row">#}
+            {#{{ page.primary_menu }}#}
+        {#</div>#}
+      {#</nav>#}
+
       <!-- HEADER
       ================================================== -->
       <div class="header">
+        {#<div class="container-fluid">#}
+          {#<div class="row align-items-center">#}
+            {#<div class="col-3 col-md-3">#}
 
-        <div class="container-fluid">
-          <div class="row align-items-center">
-            <div class="col-3 col-md-3">
+              {#<!-- Brand -->#}
+              {#<div class="header-brand">#}
+                {#<img src="{{ base_path ~ directory }}/img/brand.svg" alt="City of Corpus Chriti Texas">#}
+              {#</div>#}
 
-              <!-- Brand -->
-              <div class="header-brand">
-                <img src="{{ base_path ~ directory }}/img/brand.svg" alt="City of Corpus Chriti Texas">
-              </div>
-
-            </div>
-            <div class="col-9 col-md-6">
+            {#</div>#}
+            {#<div class="col-9 col-md-6">#}
                 {#{{ page.header_top }}#}
-              <!-- Search -->
-              <form class="header-search">
+              {#<!-- Search -->#}
+              {#<form class="header-search">#}
 
-                <!-- Search: Controls -->
-                <div class="form-group">
-                  <label for="header-search" class="sr-only">
-                    Search
-                  </label>
-                  <input type="search" class="form-control" id="header-search">
-                </div>
+                {#<!-- Search: Controls -->#}
+                {#<div class="form-group">#}
+                  {#<label for="header-search" class="sr-only">#}
+                    {#Search#}
+                  {#</label>#}
+                  {#<input type="search" class="form-control" id="header-search">#}
+                {#</div>#}
 
-                <!-- Search: Submit -->
-                <button class="btn btn-primary">
-                  <span class="d-none d-md-inline-block">search</span>
-                  <i class="ion-search d-md-none"></i>
-                </button>
+                {#<!-- Search: Submit -->#}
+                {#<button class="btn btn-primary">#}
+                  {#<span class="d-none d-md-inline-block">search</span>#}
+                  {#<i class="ion-search d-md-none"></i>#}
+                {#</button>#}
 
-              </form>
+              {#</form>#}
 
+            {#</div>#}
+          {#</div>#}
+        {#</div>#}
+
+
+
+
+        <div class="ui menu">
+
+          <div class="item">
+            <img src="http://web01-prd-cctx-app01.ccpd.net/themes/cctx/img/brand.svg" >
+          </div>
+
+          <div class="item">
+            <div class="ui icon input">
+              <input type="text" placeholder="Search...">
+              <i class="search icon"></i>
             </div>
           </div>
+
+
+          <div class="right item">
+          <div class="ui buttons">
+            <button class="ui button">
+
+
+              <a href="/admin/login">Log-in</a></button>
+            <div class="or"></div>
+            <button class="ui positive button">Request Access</button>
+          </div>
+          </div>
+
         </div>
+
+
+
+
+
+        {#<nav class="navbar navbar-light bg-dark" style="">#}
+          {#<a class="navbar-brand" href="#">#}
+            {#<img src="http://web01-prd-cctx-app01.ccpd.net/themes/cctx/img/brand.svg" class="d-inline-block align-top" >#}
+          {#</a>#}
+            {#{{ page.primary_menu }}#}
+        {#</nav>#}
+
       </div> <!-- / .header -->
 
       <!-- NAVBAR
@@ -71,23 +128,34 @@
 
         {#<button type="button" class="btn btn-link">Link</button>#}
 
-        <nav class="navbar fixed-top  navbar-light bg-dark">
-          <a class="navbar-brand" href="#">
-            <img src="http://web01-prd-cctx-app01.ccpd.net/themes/cctx/img/brand.svg" width="100" height="100" alt="">
 
-          </a>
 
-            {{ page.primary_menu }}
-        </nav>
+
+
+
+        {#<nav class="navbar fixed-top navbar-light bg-dark" style="" >#}
+
+          {#<div class="row">#}
+            {#<a class="navbar-brand" href="#">#}
+              {#<img src="http://web01-prd-cctx-app01.ccpd.net/themes/cctx/img/brand.svg" width="100" height="100" alt="">#}
+
+            {#</a>#}
+          {#</div>#}
+
+
+{#<div class="row">#}
+            {#{{ page.primary_menu }}#}
+{#</div>#}
+        {#</nav>#}
 
         {#<h1>davisond</h1>#}
 {#{{ page.breadcrumb }}#}
         {#<!-- Image and text -->#}
-        <nav class="navbar fixed-bottom  navbar-light bg-dark">
-          <a class="navbar-brand" href="#">
-            <img src="http://web01-prd-cctx-app01.ccpd.net/themes/cctx/img/brand.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+        {#<nav class="navbar fixed-bottom  navbar-light bg-dark">#}
+          {#<a class="navbar-brand" href="#">#}
+            {#<img src="http://web01-prd-cctx-app01.ccpd.net/themes/cctx/img/brand.svg" width="30" height="30" class="d-inline-block align-top" alt="">#}
 
-          </a>
+          {#</a>#}
 
         </nav>
 
@@ -163,13 +231,12 @@ body {behavior: url("csshover3.htc");}
 #menu li .drop {background:url("img/drop.gif") no-repeat right 8px; 
 </style>
 <![endif]-->
- 
 
 
 
- 
 
- 
+
+
  {# --------------------------------------------------- #}
 
 
@@ -211,13 +278,72 @@ body {behavior: url("csshover3.htc");}
                {{ page.sidebar_first }}
            </aside>
 
+
           </div>
           <div class="col-md-6 col-xl-8">
 
             <!-- Main -->
             <main class="main">
               
-            {{ page.highlighted }}
+            {#{{ page.highlighted }}#}
+              <div class="ui grid">
+                <div class="twelve wide stretched column">
+                  <div class="ui segment">
+                    This is an stretched grid column. This segment will always match the tab height
+                  </div>
+                </div>
+                <div class="four wide column">
+                  <div class="ui vertical fluid right tabular menu">
+                    <a class="active item">
+                      Bio
+                    </a>
+                    <a class="item">
+                      Pics
+                    </a>
+                    <a class="item">
+                      Companies
+                    </a>
+                    <a class="item">
+                      Links
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="ui labeled icon menu">
+                <a class="item">
+                  <i class="gamepad icon"></i>
+                  Polcies
+                </a>
+                <a class="item">
+                  <i class="calendar alternate icon"></i>
+                  Calendar
+                </a>
+                <a class="item">
+                  <i class="video play icon"></i>
+                  Applicaiton & Information
+                </a>
+              </div>
+              <div class="ui vertical labeled icon menu">
+                <a class="item active">
+                  <i class="gamepad icon"></i>
+                  Payroll Calendar
+                </a>
+                <a class="item">
+                  <i class="video camera icon"></i>
+                  People
+                </a>
+                <a class="item">
+                  <i class="video play icon"></i>
+                  People
+                </a>
+              </div>
+
+
+
+
+
+
 
              
               <!-- Divider -->
@@ -232,85 +358,129 @@ body {behavior: url("csshover3.htc");}
             
           </div>
           <div class="col-md-3 col-xl-2">
-            
+
             <!-- Aside -->
             <aside class="aside">
+              <div class="ui relaxed divided list">
+                <a class="item" href="">
+                  <i class="arrow circle right icon"></i>
+                  lfkasldfkjsk
+                </a>
+                <div class="item">
+                  <i class="arrow circle right icon"></i>
+                  <div class="content">
+                    <a class="header">Semantic-Org/Semantic-UI</a>
+                    <div class="description">Updated 10 mins ago</div>
+                  </div>
+                </div>
+                <div class="item">
+                  <i class="large github middle aligned icon"></i>
+                  <div class="content">
+                    <a class="header">Semantic-Org/Semantic-UI-Docs</a>
+                    <div class="description">Updated 22 mins ago</div>
+                  </div>
+                </div>
+                <div class="item">
+                  <i class="large github middle aligned icon"></i>
+                  <div class="content">
+                    <a class="header">Semantic-Org/Semantic-UI-Meteor</a>
+                    <div class="description">Updated 34 mins ago</div>
+                  </div>
+                </div>
+              </div>
+              <div class="ui relaxed divided list">
              {{ page.sidebar_second }}
+              </div>
 
               <!-- Links -->
              
               <!-- New -->
-              <div class="aside-new">
-                
-                <!-- Heading -->
-                <h3 class="aside-new-heading">
-                  Look whos new
-                </h3>
-                
-                <!-- Body -->
-                <div class="aside-new-body">
-                  
-                  <!-- Item -->
-                  <div class="aside-new-body-item">
+              {#<div class="aside-new">#}
+                {##}
+                {#<!-- Heading -->#}
+                {#<h3 class="aside-new-heading">#}
+                  {#Look whos new#}
+                {#</h3>#}
+                {##}
+                {#<!-- Body -->#}
+                {#<div class="aside-new-body">#}
+                  {##}
+                  {#<!-- Item -->#}
+                  {#<div class="aside-new-body-item">#}
 
-                    <!-- Header -->
-                    <div class="aside-new-body-item-header">
+                    {#<!-- Header -->#}
+                    {#<div class="aside-new-body-item-header">#}
 
-                      <!-- Image -->
-                      <img src="http://placehold.it/240x240" class="img-fluid" alt="Jacqueline Washington">
+                      {#<!-- Image -->#}
+                      {#<img src="http://placehold.it/240x240" class="img-fluid" alt="Jacqueline Washington">#}
 
-                      <!-- Content -->
-                      <div class="aside-new-body-item-header-content">
-                        <h4>
-                          Jacqueline Washington
-                        </h4>
-                        <p>
-                          (Seniour Account Clerk)
-                        </p>
-                      </div>
+                      {#<!-- Content -->#}
+                      {#<div class="aside-new-body-item-header-content">#}
+                        {#<h4>#}
+                          {#Jacqueline Washington#}
+                        {#</h4>#}
+                        {#<p>#}
+                          {#(Seniour Account Clerk)#}
+                        {#</p>#}
+                      {#</div>#}
 
-                    </div>
-                    
-                    <!-- Body -->
-                    <p class="aside-new-body-item-body">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque labore natus quod nulla est.
-                    </p>
+                    {#</div>#}
+                    {##}
+                    {#<!-- Body -->#}
+                    {#<p class="aside-new-body-item-body">#}
+                      {#Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque labore natus quod nulla est.#}
+                    {#</p>#}
 
-                  </div>
+                  {#</div>#}
 
-                  <!-- Item -->
-                  <div class="aside-new-body-item">
+                  {#<!-- Item -->#}
+                  {#<div class="aside-new-body-item">#}
 
-                    <!-- Header -->
-                    <div class="aside-new-body-item-header">
+                    {#<!-- Header -->#}
+                    {#<div class="aside-new-body-item-header">#}
 
-                      <!-- Image -->
-                      <img src="http://placehold.it/240x240" class="img-fluid" alt="Jacqueline Washington">
+                      {#<!-- Image -->#}
+                      {#<img src="http://placehold.it/240x240" class="img-fluid" alt="Jacqueline Washington">#}
 
-                      <!-- Content -->
-                      <div class="aside-new-body-item-header-content">
-                        <h4>
-                          Jacqueline Washington
-                        </h4>
-                        <p>
-                          (Seniour Account Clerk)
-                        </p>
-                      </div>
+                      {#<!-- Content -->#}
+                      {#<div class="aside-new-body-item-header-content">#}
+                        {#<h4>#}
+                          {#Jacqueline Washington#}
+                        {#</h4>#}
+                        {#<p>#}
+                          {#(Seniour Account Clerk)#}
+                        {#</p>#}
+                      {#</div>#}
 
-                    </div>
-                    
-                    <!-- Body -->
-                    <p class="aside-new-body-item-body">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque labore natus quod nulla est.
-                    </p>
+                    {#</div>#}
+                    {##}
+                    {#<!-- Body -->#}
+                    {#<p class="aside-new-body-item-body">#}
+                      {#Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque labore natus quod nulla est.#}
+                    {#</p>#}
 
-                  </div>
+                  {#</div>#}
 
-                </div>
+                {#</div>#}
 
-              </div>
+              {#</div>#}
+
+
               
             </aside>
+
+            <div class="ui one column grid">
+              <div class="column">
+                <div class="ui raised segment">
+                  <a class="ui red ribbon label">Look Who's New</a>
+                  <span>Account Details</span>
+                  <p></p>
+                  <a class="ui blue ribbon label">Community</a> User Reviews
+                  <p></p>
+                </div>
+              </div>
+
+            </div>
 
           </div>
         </div> <!-- / .row -->
@@ -344,6 +514,9 @@ body {behavior: url("csshover3.htc");}
 
   <script type="text/javascript">
 
+      jQuery(document).ready(function(){
 
+//          jQuery('.ui.modal').modal('show');
+      });
 
   </script>

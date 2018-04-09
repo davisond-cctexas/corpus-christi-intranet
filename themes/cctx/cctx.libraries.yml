@@ -15,10 +15,35 @@ base:
     base:
       css/styles.css: {}
       css/drupal.css: {}
+      css/Semantic-UI-CSS-master/semantic.min.css: {}
   js:
     js/theme.js: {}
+    css/Semantic-UI-CSS-master/semantic.min.js: {}
   dependencies:
     - core/jquery
+
+semantic_ui.form:
+ js:
+  css/Semantic-UI-CSS-master/components/form.js: {}
+ css:
+  component:
+    css/Semantic-UI-CSS-master/components/form.css: {}
+
+ semantic_ui.button:
+  css:
+    component:
+        css/Semantic-UI-CSS-master/components/button.css: {}
+
+ semantic_ui.input:
+  css:
+  component:
+  css/Semantic-UI-CSS-master/components/input.css: {}
+
+ semantic_ui.label:
+  css:
+  component:
+  css/Semantic-UI-CSS-master/components/label.css: {}
+
 
 #webfonts:
 # version: VERSION

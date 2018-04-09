@@ -3588,7 +3588,8 @@ tbody.collapse.show {
 
 .nav-link:focus,
 .nav-link:hover {
-    text-decoration: none
+    /*text-decoration: underline;*/
+    background-color: #ea9c37;
 }
 
 .nav-link.disabled {
@@ -3609,7 +3610,7 @@ tbody.collapse.show {
 
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
-    border-color: #e9ecef #e9ecef #ddd
+    /*border-color: #e9ecef #e9ecef #ddd*/
 }
 
 .nav-tabs .nav-link.disabled {
@@ -8352,6 +8353,7 @@ body {
 
 .navbar-light {
     background-color: #797979
+    /*background-color: #343a40!important;*/
 }
 
 .navbar .nav-item {
@@ -8362,6 +8364,8 @@ body {
 
 .navbar .nav-link {
     color: #ffffff;
+    /*border: 5px solid #000;*/
+
     padding: .5rem 1.25rem!important
 }
 
@@ -8585,7 +8589,7 @@ body {
     font-family: Ionicons;
     display: inline-block;
     min-width: 5px;
-    content: "\f363";
+    /*content: "\f363";*/
     color: #7b7b7b
 }
 
@@ -8627,7 +8631,7 @@ body {
     font-family: Ionicons;
     display: inline-block;
     min-width: 5px;
-    content: "\f363";
+    /*content: "\f363";*/
     color: #7b7b7b
 }
 

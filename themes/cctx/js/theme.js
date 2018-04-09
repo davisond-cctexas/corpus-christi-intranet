@@ -15,5 +15,8 @@ jQuery(document).ready(function(){
 
   if (jQuery('body.page-node-type-department div.headlines').length > 0) {
     jQuery('div.mission').addClass('col-xl-8');
-  }  
+  }
+
+
+    jQuery('.ui.modal').modal('show');
 });
