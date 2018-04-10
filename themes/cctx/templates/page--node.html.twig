@@ -1,0 +1,414 @@
+
+
+    <!-- WRAPPER
+    ================================================== -->
+    <div class="wrapper">
+
+      <!-- HEADER
+      ================================================== -->
+      <div class="header">
+
+        <div class="ui menu">
+
+          <div class="item">
+            <img class="logo" src="http://web01-prd-cctx-app01.ccpd.net/themes/cctx/img/brand.svg" >
+          </div>
+
+          <div class="item">
+            <div class="ui icon input">
+              <input type="text" placeholder="Search...">
+              <i class="search icon"></i>
+            </div>
+          </div>
+
+
+          <div class="right item">
+          <div class="ui buttons">
+            <button class="ui button">
+
+
+              <a href="/admin/login">Log-in</a></button>
+            <div class="or"></div>
+            <button class="ui positive button">Request Access</button>
+          </div>
+          </div>
+
+        </div>
+
+
+
+        <div class="container-fluid">
+
+        </div>
+      </div> <!-- / .header -->
+
+
+
+      <!-- NAVBAR
+      ================================================== -->
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light">
+
+          <!-- Toggle -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Collapse -->
+          <div class="collapse navbar-collapse" id="navbar">
+
+            {{ page.primary_menu }}
+              {#{{ page.breadcrumb }}#}
+        {# .btn-navbar is used as the toggle for collapsed navbar content #}
+        {% if page.navigation_collapsible %}
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="sr-only">{{ 'Toggle navigation'|t }}</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        {% endif %}
+          </div> <!-- / .navbar-collapse -->
+
+        </nav>
+      </div>
+      <!-- CONTENT
+      ================================================== -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3 col-xl-2">
+
+            <!-- Aside -->
+            <aside class="aside">
+               {{ page.sidebar_first }}
+
+            </aside>
+
+          </div>
+          <div class="col-md-6 col-xl-8">
+
+            <!-- Main -->
+            <main class="main">
+
+
+              <div class="row main-row">
+                <div class="col-xl-8">
+                  <h3>{{ page['#title'] }}</h3>
+                  <hr class="line-orange-center">
+                  <br />
+                </div>
+                <div class="col-xl-12">
+                  <div class="row">
+                            {{ page.content }}
+                            </div>
+                </div>
+
+                {# <div class="col-xl">
+
+                  <!-- Block -->
+                  <div class="main-block">
+
+                    <!-- Heading -->
+                    <h3 class="main-block-heading">
+                      Upcoming Events
+                    </h3>
+
+                    <!-- Event -->
+                    <div class="main-event">
+                      <div class="main-event-date">
+                        <time datetime="2017-12-06">
+                          06<small>Dec</small>
+                        </time>
+                        <span>Training</span>
+                      </div>
+                      <div class="main-event-body">
+                        <h4 class="main-event-body-heading">
+                          <a href="#">Some event that happens on the 06</a>
+                        </h4>
+                        <p>
+                          10:00 AM to 4:00 PM
+                        </p>
+                      </div>
+                    </div>
+
+                    <!-- Event -->
+                    <div class="main-event">
+                      <div class="main-event-date">
+                        <time datetime="2017-12-06">
+                          06<small>Dec</small>
+                        </time>
+                        <span>Training</span>
+                      </div>
+                      <div class="main-event-body">
+                        <h4 class="main-event-body-heading">
+                          <a href="#">Some event that happens on the 06</a>
+                        </h4>
+                        <p>
+                          10:00 AM to 4:00 PM
+                        </p>
+                      </div>
+                    </div>
+
+                    <!-- Event -->
+                    <div class="main-event">
+                      <div class="main-event-date">
+                        <time datetime="2017-12-06">
+                          06<small>Dec</small>
+                        </time>
+                        <span>Training</span>
+                      </div>
+                      <div class="main-event-body">
+                        <h4 class="main-event-body-heading">
+                          <a href="#">Some event that happens on the 06</a>
+                        </h4>
+                        <p>
+                          10:00 AM to 4:00 PM
+                        </p>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+                <div class="col-xl">
+
+                  <!-- Block -->
+                  <div class="main-block">
+
+                    <!-- Heading -->
+                    <h3 class="main-block-heading">
+                      Latest News
+                    </h3>
+
+                    <!-- Blog -->
+                    <div class="main-blog">
+
+                      <!-- Image -->
+                      <div class="main-blog-img">
+                        <img src="http://placehold.it/240x240" class="img-fluid" alt="Area 3-B Harvey Debris Collection Begins Monday Image">
+                      </div>
+
+                      <!-- Body -->
+                      <div class="main-blog-body">
+
+                        <!-- Heading -->
+                        <h4 class="main-blog-body-heading">
+                          <a href="#">Area 3-B Harvey Debris Collection Begins Monday</a>
+                        </h4>
+
+                        <!-- Date -->
+                        <time class="main-blog-body-date" datetime="2017-11-17">
+                          November 17, 2017
+                        </time>
+
+                      </div>
+
+                    </div>
+
+                    <!-- Blog -->
+                    <div class="main-blog">
+
+                      <!-- Image -->
+                      <div class="main-blog-img">
+                        <img src="http://placehold.it/240x240" class="img-fluid" alt="Area 3-B Harvey Debris Collection Begins Monday Image">
+                      </div>
+
+                      <!-- Body -->
+                      <div class="main-blog-body">
+
+                        <!-- Heading -->
+                        <h4 class="main-blog-body-heading">
+                          <a href="#">Area 3-B Harvey Debris Collection Begins Monday</a>
+                        </h4>
+
+                        <!-- Date -->
+                        <time class="main-blog-body-date" datetime="2017-11-17">
+                          November 17, 2017
+                        </time>
+
+                      </div>
+
+                    </div>
+
+                    <!-- Blog -->
+                    <div class="main-blog">
+
+                      <!-- Image -->
+                      <div class="main-blog-img">
+                        <img src="http://placehold.it/240x240" class="img-fluid" alt="Area 3-B Harvey Debris Collection Begins Monday Image">
+                      </div>
+
+                      <!-- Body -->
+                      <div class="main-blog-body">
+
+                        <!-- Heading -->
+                        <h4 class="main-blog-body-heading">
+                          <a href="#">Area 3-B Harvey Debris Collection Begins Monday</a>
+                        </h4>
+
+                        <!-- Date -->
+                        <time class="main-blog-body-date" datetime="2017-11-17">
+                          November 17, 2017
+                        </time>
+
+                      </div>
+
+                    </div>
+
+                    <!-- Blog -->
+                    <div class="main-blog">
+
+                      <!-- Image -->
+                      <div class="main-blog-img">
+                        <img src="http://placehold.it/240x240" class="img-fluid" alt="Area 3-B Harvey Debris Collection Begins Monday Image">
+                      </div>
+
+                      <!-- Body -->
+                      <div class="main-blog-body">
+
+                        <!-- Heading -->
+                        <h4 class="main-blog-body-heading">
+                          <a href="#">Area 3-B Harvey Debris Collection Begins Monday</a>
+                        </h4>
+
+                        <!-- Date -->
+                        <time class="main-blog-body-date" datetime="2017-11-17">
+                          November 17, 2017
+                        </time>
+
+                      </div>
+
+                    </div>
+
+                    <!-- Button -->
+                    <p class="text-right">
+                      <a href="#" class="btn main-blog-btn">
+                        More news <i class="ion-plus"></i>
+                      </a>
+                    </p>
+
+                  </div>
+
+                </div>
+                <div class="col-xl">
+
+                  <!-- Block -->
+                  <div class="main-block">
+
+                    <!-- Heading -->
+                    <h3 class="main-block-heading">
+                      Employee Spotlight
+                    </h3>
+
+                    <!-- Spotlight -->
+                    <div class="main-spotlight">
+
+                      <!-- Image -->
+                      <div class="main-spotlight-img">
+                        <img src="{{ base_path ~ directory }}/img/3.png" class="img-fluid" alt="Rachel Soliz">
+                      </div>
+
+                      <!-- Heading -->
+                      <h4 class="main-spotlight-heading">
+                        Rachel Soliz
+                      </h4>
+
+                      <!-- Subheading -->
+                      <p class="main-spotlight-subheading">
+                        Parks & Rec Maintenance Management Aide
+                      </p>
+
+                      <!-- Content -->
+                      <p class="main-spotlight-content">
+                        Rachel Soliz, Maintenance Management Aide in the Parks and Recreation Department, has been named Employee of the 4th Quarter. <a href="#">More...</a>
+                      </p>
+
+                    </div>
+
+                  </div>
+
+                </div> #}
+              </div>
+
+            </main>
+
+          </div>
+          <div class="col-md-3 col-xl-2">
+
+            <!-- Aside -->
+            <aside class="aside">
+             {{ page.sidebar_second }}
+
+
+                {#<div class="aside-links">#}
+
+                    {#<!-- Heading -->#}
+                    {#<h3 class="aside-links-heading">#}
+                        {#Finance Documents#}
+                    {#</h3>#}
+
+                    {#<!-- Items -->#}
+                    {#<ul class="aside-links-items">#}
+                        {#<li>#}
+                            {#<a href="#">Quick</a>#}
+                        {#</li>#}
+                        {#<li>#}
+                            {#<a href="#">Quick Link</a>#}
+                        {#</li>#}
+                        {#<li>#}
+                            {#<a href="#">Quick Link</a>#}
+                        {#</li>#}
+                        {#<li>#}
+                            {#<a href="#">Quick Link</a>#}
+                        {#</li>#}
+                        {#<li>#}
+                            {#<a href="#">Quick Link</a>#}
+                        {#</li>#}
+                        {#<li>#}
+                            {#<a href="#">Quick Link</a>#}
+                        {#</li>#}
+                        {#<li>#}
+                            {#<a href="#">Quick Link</a>#}
+                        {#</li>#}
+                        {#<li>#}
+                            {#<a href="#">Quick Link</a>#}
+                        {#</li>#}
+                    {#</ul>#}
+                {#</div>#}
+
+              <!-- Links -->
+
+
+              <!-- New -->
+
+            </aside>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container-fluid -->
+
+      <!-- FEEDBACK
+      ================================================== -->
+      <a href="#" class="feedback">
+        <i class="ion-chatbox"></i> Feedback
+      </a>
+
+    </div> <!-- / .wrapper -->
+
+    <!-- LINE
+    ================================================== -->
+    <div class="line line-bottom"></div>
+
+
+
+    <!-- JS Global -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://simpleqode.com/preview/sandbox/christi/2/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS Plugins -->
+
+    <!-- JS Custom -->
+    <!-- build:js assets/js/theme.min.js -->
+    <script src="http://simpleqode.com/preview/sandbox/christi/2/assets/js/theme.js"></script>
+    <!-- endbuild -->
+    <script src="http://simpleqode.com/preview/sandbox/christi/2/assets/js/custom.js"></script>
