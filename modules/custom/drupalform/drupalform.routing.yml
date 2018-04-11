@@ -1,5 +1,5 @@
 drupalform.form:
-  path: '/drupal-example-form'
+  path: '/drupalform'
   defaults:
     _title: 'Example form'
     _form: '\Drupal\drupalform\form\ExampleForm'

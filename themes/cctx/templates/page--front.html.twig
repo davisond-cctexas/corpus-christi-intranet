@@ -7,6 +7,17 @@
     {#<link rel="stylesheet" href="{{ base_path ~ directory }}/css/styles.css">#}
     <!-- endbuild -->
 
+  <style>
+
+
+      .ui.vertical.menu{
+
+          width: 19rem;
+      }
+
+
+  </style>
+
 
 
     <!-- LINE
@@ -228,7 +239,7 @@
 <!--[if IE 6]>
 <style>
 body {behavior: url("csshover3.htc");}
-#menu li .drop {background:url("img/drop.gif") no-repeat right 8px; 
+#menu li .drop {background:url("img/drop.gif") no-repeat right 8px;
 </style>
 <![endif]-->
 
@@ -267,16 +278,55 @@ body {behavior: url("csshover3.htc");}
 
         </nav>
       </div>
-      <!-- CONTENT 
+      <!-- CONTENT
       ================================================== -->
-      <div class="container-fluid"> 
-        <div class="row"> 
+      <div class="container-fluid">
+        <div class="row">
           <div class="col-md-3 col-xl-2">
-            
+
+
+
             <!-- Aside -->
             <aside class="aside">
                {{ page.sidebar_first }}
-           </aside>
+
+
+            </aside>
+
+              <div class="ui card">
+                  <div class="content">
+                      <div class="header">Latest Newsletter</div>
+                  </div>
+                  <div class="content">
+                      <h4 class="ui sub header">Activity</h4>
+                      <div class="ui small feed">
+                          <div class="event">
+                              <div class="content">
+                                  <div class="summary">
+                                      <a>Elliot Fu</a> added <a>Jenny Hess</a> to the project
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="event">
+                              <div class="content">
+                                  <div class="summary">
+                                      <a>Stevie Feliciano</a> was added as an <a>Administrator</a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="event">
+                              <div class="content">
+                                  <div class="summary">
+                                      <a>Helen Troy</a> added two pictures
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="extra content">
+                      <button class="ui button">Join Project</button>
+                  </div>
+              </div>
 
 
           </div>
@@ -284,8 +334,8 @@ body {behavior: url("csshover3.htc");}
 
             <!-- Main -->
             <main class="main">
-              
-            {#{{ page.highlighted }}#}
+
+            {{ page.highlighted }}
               <div class="ui grid">
                 <div class="twelve wide stretched column">
                   <div class="ui segment">
@@ -345,55 +395,134 @@ body {behavior: url("csshover3.htc");}
 
 
 
-             
+
               <!-- Divider -->
               <hr class="main-divider">
 
               <div class="row">
                {{ page.content }}
-               
+
               </div>
 
             </main>
-            
+
           </div>
           <div class="col-md-3 col-xl-2">
 
             <!-- A1side -->
             <aside class="aside">
-              <div class="ui relaxed divided list">
-                <a class="item" href="">
-                  <i class="arrow circle right icon"></i>
-                  lfkasldfkjsk
-                </a>
-                <div class="item">
-                  <i class="arrow circle right icon"></i>
-                  <div class="content">
-                    <a class="header">Semantic-Org/Semantic-UI</a>
-                    <div class="description">Updated 10 mins ago</div>
-                  </div>
+              {#<div class="ui relaxed divided list">#}
+                {#<a class="item" href="">#}
+                  {#<i class="arrow circle right icon"></i>#}
+                  {#lfkasldfkjsk#}
+                {#</a>#}
+                {#<div class="item">#}
+                  {#<i class="arrow circle right icon"></i>#}
+                  {#<div class="content">#}
+                    {#<a class="header">Semantic-Org/Semantic-UI</a>#}
+                    {#<div class="description">Updated 10 mins ago</div>#}
+                  {#</div>#}
+                {#</div>#}
+                {#<div class="item">#}
+                  {#<i class="large github middle aligned icon"></i>#}
+                  {#<div class="content">#}
+                    {#<a class="header">Semantic-Org/Semantic-UI-Docs</a>#}
+                    {#<div class="description">Updated 22 mins ago</div>#}
+                  {#</div>#}
+                {#</div>#}
+                {#<div class="item">#}
+                  {#<i class="large github middle aligned icon"></i>#}
+                  {#<div class="content">#}
+                    {#<a class="header">Semantic-Org/Semantic-UI-Meteor</a>#}
+                    {#<div class="description">Updated 34 mins ago</div>#}
+                  {#</div>#}
+                {#</div>#}
+              {#</div>#}
+
+
+                <div class="ui vertical menu">
+                    <a class="active teal item">New Policies
+                        <div class="ui teal left pointing label">3</div>
+                    </a>
+                    <a class="item">
+                        Updated  Policies
+                        <div class="ui label">5</div>
+                    </a>
+                    <a class="item">
+                        Updates
+                        <div class="ui label">1</div>
+                    </a>
+                    <div class="item">
+                        <div class="ui transparent icon input">
+                            <input type="text" placeholder="Search mail...">
+                            <i class="search icon"></i>
+                        </div>
+                    </div>
                 </div>
-                <div class="item">
-                  <i class="large github middle aligned icon"></i>
-                  <div class="content">
-                    <a class="header">Semantic-Org/Semantic-UI-Docs</a>
-                    <div class="description">Updated 22 mins ago</div>
-                  </div>
-                </div>
-                <div class="item">
-                  <i class="large github middle aligned icon"></i>
-                  <div class="content">
-                    <a class="header">Semantic-Org/Semantic-UI-Meteor</a>
-                    <div class="description">Updated 34 mins ago</div>
-                  </div>
-                </div>
-              </div>
-              <div class="ui relaxed divided list">
-             {{ page.sidebar_second }}
+
+                <div class="ui relaxed divided list">
+              {{ page.sidebar_second }}
+
+
               </div>
 
+
+                <div class="ui vertical menu">
+                    <div class="item">
+                        <div class="header">Products</div>
+                        <div class="menu">
+                            <a class="item">Enterprise</a>
+                            <a class="item">Consumer</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="header">CMS Solutions</div>
+                        <div class="menu">
+                            <a class="item">Rails</a>
+                            <a class="item">Python</a>
+                            <a class="item">PHP</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="header">Hosting</div>
+                        <div class="menu">
+                            <a class="item">Shared</a>
+                            <a class="item">Dedicated</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="header">Support</div>
+                        <div class="menu">
+                            <a class="item">E-mail Support</a>
+                            <a class="item">FAQs</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="ui vertical menu">
+                    <a class="item">
+                        <h4 class="ui header">Promotions</h4>
+                        <p>Check out our new promotions</p>
+                    </a>
+                    <a class="item">
+                        <h4 class="ui header">Coupons</h4>
+                        <p>Check out our collection of coupons</p>
+                    </a>
+                    <a class="item">
+                        <h4 class="ui header">Rebates</h4>
+                        <p>Visit our rebate forum for information on claiming rebates</p>
+                    </a>
+                </div>
+
+
+
+              <div class="aside-links">
+
+
               <!-- Links -->
-             
+
               <!-- New -->
               {#<div class="aside-new">#}
                 {##}
@@ -466,7 +595,7 @@ body {behavior: url("csshover3.htc");}
               {#</div>#}
 
 
-              
+
             </aside>
 
             <div class="ui one column grid">
@@ -491,7 +620,7 @@ body {behavior: url("csshover3.htc");}
       <a href="#" class="feedback">
         <i class="ion-chatbox"></i> Feedback
       </a>
-      
+
       {{footer_first }}
     </div> <!-- / .wrapper -->
 
