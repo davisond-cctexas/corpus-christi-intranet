@@ -19,7 +19,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="ce6a6930-75f7-44fb-ae79-f1ab7223161d" name="Web01-vcs-cctxintra" url="http://10.9.8.28">
-        <fileTransfer host="10.9.8.28" port="22" accessType="SFTP">
+        <fileTransfer host="10.9.8.28" port="22" rootFolder="/var/www/html/corpus-christi-water-calculator" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

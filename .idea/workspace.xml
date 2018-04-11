@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4ac413b-27d1-4faa-ae4d-5b65754eeb61" name="Default" comment="" />
+    <list default="true" id="d4ac413b-27d1-4faa-ae4d-5b65754eeb61" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bash-scripts.sh" afterPath="$PROJECT_DIR$/bash-scripts.sh" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,10 +36,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="10.9.8.28" pinned="false" current-in-tab="true">
-        <entry file="mock:///10.9.8.28">
-          <provider selected="true" editor-type-id="terminal-session-editor">
-            <state />
+      <file leaf-file-name="water-calculator.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/corpus-christi-water-calculator/water-calculator.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/corpus-christi-water-calculator/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="49" lean-forward="false" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="71" />
+              <folding>
+                <element signature="e#20035#20120#0#PHP" expanded="true" />
+                <marker date="1523478698281" expanded="false" signature="13064:13078" ph="..." />
+                <marker date="1523478698281" expanded="false" signature="13427:13449" ph="..." />
+                <marker date="1523478698281" expanded="false" signature="14692:14729" ph="..." />
+                <marker date="1523478698281" expanded="false" signature="15099:15136" ph="..." />
+                <marker date="1523478698281" expanded="false" signature="15545:15582" ph="..." />
+                <marker date="1523478698281" expanded="false" signature="15970:16007" ph="..." />
+                <marker date="1523478698281" expanded="false" signature="16325:16343" ph="..." />
+                <marker date="1523478698281" expanded="false" signature="16614:16620" ph=" " />
+                <marker date="1523478698281" expanded="false" signature="16770:16785" ph="..." />
+                <marker date="1523478698281" expanded="false" signature="17013:17028" ph="..." />
+                <marker date="1523478698281" expanded="false" signature="17260:17275" ph="..." />
+                <marker date="1523478698281" expanded="false" signature="17508:17523" ph="..." />
+                <marker date="1523478698281" expanded="false" signature="17533:17537" ph="&gt;" />
+                <marker date="1523478698281" expanded="false" signature="17743:17749" ph=" " />
+                <marker date="1523478698281" expanded="false" signature="17977:17983" ph=" " />
+                <marker date="1523478698281" expanded="false" signature="18009:18015" ph=" " />
+                <marker date="1523478698281" expanded="false" signature="18041:18047" ph=" " />
+                <marker date="1523478698281" expanded="false" signature="18148:18163" ph="..." />
+                <marker date="1523478698281" expanded="false" signature="18344:18350" ph=" " />
+                <marker date="1523478698281" expanded="false" signature="18512:18527" ph="..." />
+                <marker date="1523478698281" expanded="false" signature="18706:18712" ph=" " />
+                <marker date="1523478698281" expanded="false" signature="18865:18871" ph=" " />
+                <marker date="1523478698281" expanded="false" signature="18897:18903" ph=" " />
+                <marker date="1523478698281" expanded="false" signature="18929:18935" ph=" " />
+                <marker date="1523478698281" expanded="false" signature="19003:19018" ph="..." />
+                <marker date="1523478698281" expanded="false" signature="19092:19098" ph=" " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iframe-content.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/corpus-christi-water-calculator/iframe-content.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="1110" column="0" lean-forward="true" selection-start-line="1110" selection-start-column="0" selection-end-line="1110" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show-examples.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/corpus-christi-water-calculator/show-examples.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cctx.libraries.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/cctx/cctx.libraries.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -61,10 +140,11 @@
       <find>high</find>
       <find>field</find>
       <find>content</find>
+      <find>ui right l</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/corpus-christi-water-calculator" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -88,6 +168,7 @@
         <option value="$PROJECT_DIR$/themes/cctx/templates/block--sliderlinks.html.twig" />
         <option value="$PROJECT_DIR$/themes/cctx/templates/page.html.twig" />
         <option value="$PROJECT_DIR$/themes/cctx/templates/page--node.html.twig" />
+        <option value="$USER_HOME$/corpus-christi-water-calculator/index.php" />
       </list>
     </option>
   </component>
@@ -101,8 +182,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="705" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -141,8 +222,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="corpus-christi-intranet" />
+              <option name="myItemId" value="corpus-christi-water-calculator" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Semantic-UI-CSS-master" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corpus-christi-intranet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corpus-christi-water-calculator" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Semantic-UI-CSS-master" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="semantic.css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -168,7 +271,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="last_opened_file_path" value="$USER_HOME$/corpus-christi-water-calculator" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="ssh&#9;ACTION&#9;com.jetbrains.plugins.remotesdk.console.RunSshConsoleAction&#10;SSH&#9;ACTION&#9;com.jetbrains.plugins.remotesdk.console.RunSshConsoleAction&#10;pres&#9;ACTION&#9;TogglePresentationMode&#10;format&#9;ACTION&#9;ReformatCode&#10;prese&#9;ACTION&#9;TogglePresentationMode&#10;settings&#9;ACTION&#9;Database.Settings&#10;presen&#9;ACTION&#9;TogglePresentationMode&#10;project&#9;ACTION&#9;ActivateProjectToolWindow&#10;split&#9;ACTION&#9;SplitVertically&#10;pro&#9;ACTION&#9;ActivateProjectToolWindow&#10;autom&#9;ACTION&#9;WebDeployment.ToggleAutoUpload&#10;ss&#9;ACTION&#9;com.jetbrains.plugins.remotesdk.console.RunSshConsoleAction&#10;brow&#9;ACTION&#9;WebDeployment.BrowseServers" />
+    <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file://C:/Users/DavisonD/corpus-christi-water-calculator/index.php&#10;ssh&#9;ACTION&#9;com.jetbrains.plugins.remotesdk.console.RunSshConsoleAction&#10;depl&#9;ACTION&#9;PublishGroup&#10;SSH&#9;ACTION&#9;com.jetbrains.plugins.remotesdk.console.RunSshConsoleAction&#10;pres&#9;ACTION&#9;TogglePresentationMode&#10;format&#9;ACTION&#9;ReformatCode&#10;prese&#9;ACTION&#9;TogglePresentationMode&#10;settings&#9;ACTION&#9;Database.Settings&#10;presen&#9;ACTION&#9;TogglePresentationMode&#10;project&#9;ACTION&#9;ActivateProjectToolWindow&#10;split&#9;ACTION&#9;SplitVertically&#10;pro&#9;ACTION&#9;ActivateProjectToolWindow&#10;autom&#9;ACTION&#9;WebDeployment.ToggleAutoUpload&#10;ss&#9;ACTION&#9;com.jetbrains.plugins.remotesdk.console.RunSshConsoleAction&#10;brow&#9;ACTION&#9;WebDeployment.BrowseServers" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
@@ -176,7 +279,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.selected.package.eslint" value="C:\Users\DavisonD\corpus-christi-water-calculator\node_modules\eslint" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="full.screen.before.presentation.mode" value="false" />
   </component>
@@ -201,7 +304,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.corpus-christi-water-calculator">
+    <configuration default="false" name="corpus-christi-water-calculator" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$USER_HOME$/corpus-christi-water-calculator" />
+      <method />
+    </configuration>
     <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
       <method />
     </configuration>
@@ -272,6 +379,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.corpus-christi-water-calculator" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.corpus-christi-water-calculator" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -294,12 +409,12 @@
       <workItem from="1523463519074" duration="459000" />
       <workItem from="1523470914102" duration="265000" />
       <workItem from="1523472579249" duration="619000" />
-      <workItem from="1523473486339" duration="847000" />
+      <workItem from="1523473486339" duration="5228000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48547000" />
+    <option name="totallyTimeSpent" value="52928000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -311,19 +426,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="705" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21440129" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18122977" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38588753" sideWeight="0.50852877" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23042999" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23153253" sideWeight="0.4914712" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.141258" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18283582" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3846154" sideWeight="0.4914712" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -331,7 +447,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23042999" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -398,14 +513,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bash-scripts.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bash-scripts.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -530,13 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/cctx/cctx.libraries.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -702,5 +802,86 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/cctx/templates/form.html.twig" />
+    <entry file="file://$PROJECT_DIR$/themes/cctx/cctx.libraries.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/corpus-christi-water-calculator/Semantic-UI-CSS-master/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="112">
+            <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/corpus-christi-water-calculator/iframe-content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="1110" column="0" lean-forward="true" selection-start-line="1110" selection-start-column="0" selection-end-line="1110" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/corpus-christi-water-calculator/show-examples.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/corpus-christi-water-calculator/water-calculator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/corpus-christi-water-calculator/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="49" lean-forward="false" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="71" />
+          <folding>
+            <element signature="e#20035#20120#0#PHP" expanded="true" />
+            <marker date="1523478698281" expanded="false" signature="13064:13078" ph="..." />
+            <marker date="1523478698281" expanded="false" signature="13427:13449" ph="..." />
+            <marker date="1523478698281" expanded="false" signature="14692:14729" ph="..." />
+            <marker date="1523478698281" expanded="false" signature="15099:15136" ph="..." />
+            <marker date="1523478698281" expanded="false" signature="15545:15582" ph="..." />
+            <marker date="1523478698281" expanded="false" signature="15970:16007" ph="..." />
+            <marker date="1523478698281" expanded="false" signature="16325:16343" ph="..." />
+            <marker date="1523478698281" expanded="false" signature="16614:16620" ph=" " />
+            <marker date="1523478698281" expanded="false" signature="16770:16785" ph="..." />
+            <marker date="1523478698281" expanded="false" signature="17013:17028" ph="..." />
+            <marker date="1523478698281" expanded="false" signature="17260:17275" ph="..." />
+            <marker date="1523478698281" expanded="false" signature="17508:17523" ph="..." />
+            <marker date="1523478698281" expanded="false" signature="17533:17537" ph="&gt;" />
+            <marker date="1523478698281" expanded="false" signature="17743:17749" ph=" " />
+            <marker date="1523478698281" expanded="false" signature="17977:17983" ph=" " />
+            <marker date="1523478698281" expanded="false" signature="18009:18015" ph=" " />
+            <marker date="1523478698281" expanded="false" signature="18041:18047" ph=" " />
+            <marker date="1523478698281" expanded="false" signature="18148:18163" ph="..." />
+            <marker date="1523478698281" expanded="false" signature="18344:18350" ph=" " />
+            <marker date="1523478698281" expanded="false" signature="18512:18527" ph="..." />
+            <marker date="1523478698281" expanded="false" signature="18706:18712" ph=" " />
+            <marker date="1523478698281" expanded="false" signature="18865:18871" ph=" " />
+            <marker date="1523478698281" expanded="false" signature="18897:18903" ph=" " />
+            <marker date="1523478698281" expanded="false" signature="18929:18935" ph=" " />
+            <marker date="1523478698281" expanded="false" signature="19003:19018" ph="..." />
+            <marker date="1523478698281" expanded="false" signature="19092:19098" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
