@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="74e9d0b5-1490-4806-9d85-4ebe047cb168" name="Web01-prd-cctx-app01" url="http://10.9.8.22">
+        <fileTransfer host="10.9.8.22" port="22" rootFolder="/var/www/html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="daadd11f-dd1b-4af7-b92e-0f231682685f" name="Web01-stg-cctx-app01" url="http://10.9.8.25">
+        <fileTransfer host="10.9.8.25" port="22" rootFolder="/home/davisond" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="ce6a6930-75f7-44fb-ae79-f1ab7223161d" name="Web01-vcs-cctxintra" url="http://10.9.8.28">
+        <fileTransfer host="10.9.8.28" port="22" rootFolder="/var/www/html/corpus-christi-water-calculator" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
