@@ -1,0 +1,6 @@
+services:
+  drushmodule.event_subscriber:
+    class: Drupal\drushmodule\EventSubscriber\DrushmoduleSubscriber
+    arguments: ['@current_user']
+    tags:
+      - { name: event_subscriber }

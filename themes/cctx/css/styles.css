@@ -50,7 +50,7 @@
     a:visited {
         text-decoration: underline
     }
-    abbr[title]:after {
+    abbr[title]:after {drush
         content: " (" attr(title) ")"
     }
     pre {
@@ -8400,7 +8400,7 @@ body {
 
 .header {
     margin-bottom: 1rem;
-    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .1)
+    /*box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .1)*/
 }
 
 .header-brand {

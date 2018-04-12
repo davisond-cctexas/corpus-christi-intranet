@@ -295,36 +295,26 @@ body {behavior: url("csshover3.htc");}
 
               <div class="ui card">
                   <div class="content">
-                      <div class="header">Latest Newsletter</div>
+                      <div class="header">City Employee Newsletter</div>
                   </div>
                   <div class="content">
-                      <h4 class="ui sub header">Activity</h4>
+                      <h4 class="ui sub header">   In today's City Employee Newsletter:</h4>
                       <div class="ui small feed">
                           <div class="event">
                               <div class="content">
                                   <div class="summary">
-                                      <a>Elliot Fu</a> added <a>Jenny Hess</a> to the project
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="event">
-                              <div class="content">
-                                  <div class="summary">
-                                      <a>Stevie Feliciano</a> was added as an <a>Administrator</a>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="event">
-                              <div class="content">
-                                  <div class="summary">
-                                      <a>Helen Troy</a> added two pictures
+
+
+                                      Calling all artists! Here's an opportunity to flex those creative muscles.
+                                      Speaking of muscles, meet our Wellness Coordinator - your resource for healthier living.
+                                      See what you can do to help our local Meals on Wheels Program.
                                   </div>
                               </div>
                           </div>
                       </div>
                   </div>
                   <div class="extra content">
-                      <button class="ui button">Join Project</button>
+                      <button class="ui button">Read</button>
                   </div>
               </div>
 
@@ -335,59 +325,59 @@ body {behavior: url("csshover3.htc");}
             <!-- Main -->
             <main class="main">
 
-            {{ page.highlighted }}
-              <div class="ui grid">
-                <div class="twelve wide stretched column">
-                  <div class="ui segment">
-                    This is an stretched grid column. This segment will always match the tab height
-                  </div>
-                </div>
-                <div class="four wide column">
-                  <div class="ui vertical fluid right tabular menu">
-                    <a class="active item">
-                      Bio
-                    </a>
-                    <a class="item">
-                      Pics
-                    </a>
-                    <a class="item">
-                      Companies
-                    </a>
-                    <a class="item">
-                      Links
-                    </a>
-                  </div>
-                </div>
-              </div>
+            {#{{ page.highlighted }}#}
+              {#<div class="ui grid">#}
+                {#<div class="twelve wide stretched column">#}
+                  {#<div class="ui segment">#}
+                    {#This is an stretched grid column. This segment will always match the tab height#}
+                  {#</div>#}
+                {#</div>#}
+                {#<div class="four wide column">#}
+                  {#<div class="ui vertical fluid right tabular menu">#}
+                    {#<a class="active item">#}
+                      {#Bio#}
+                    {#</a>#}
+                    {#<a class="item">#}
+                      {#Pics#}
+                    {#</a>#}
+                    {#<a class="item">#}
+                      {#Companies#}
+                    {#</a>#}
+                    {#<a class="item">#}
+                      {#Links#}
+                    {#</a>#}
+                  {#</div>#}
+                {#</div>#}
+              {#</div>#}
 
-              <div class="ui labeled icon menu">
-                <a class="item">
-                  <i class="gamepad icon"></i>
-                  Polcies
-                </a>
-                <a class="item">
-                  <i class="calendar alternate icon"></i>
-                  Calendar
-                </a>
-                <a class="item">
-                  <i class="video play icon"></i>
-                  Applicaiton & Information
-                </a>
-              </div>
-              <div class="ui vertical labeled icon menu">
-                <a class="item active">
-                  <i class="gamepad icon"></i>
-                  Payroll Calendar
-                </a>
-                <a class="item">
-                  <i class="video camera icon"></i>
-                  People
-                </a>
-                <a class="item">
-                  <i class="video play icon"></i>
-                  People
-                </a>
-              </div>
+              {#<div class="ui labeled icon menu">#}
+                {#<a class="item">#}
+                  {#<i class="gamepad icon"></i>#}
+                  {#Polcies#}
+                {#</a>#}
+                {#<a class="item">#}
+                  {#<i class="calendar alternate icon"></i>#}
+                  {#Calendar#}
+                {#</a>#}
+                {#<a class="item">#}
+                  {#<i class="video play icon"></i>#}
+                  {#Applicaiton & Information#}
+                {#</a>#}
+              {#</div>#}
+              {#<div class="ui vertical labeled icon menu">#}
+                {#<a class="item active">#}
+                  {#<i class="gamepad icon"></i>#}
+                  {#Payroll Calendar#}
+                {#</a>#}
+                {#<a class="item">#}
+                  {#<i class="video camera icon"></i>#}
+                  {#People#}
+                {#</a>#}
+                {#<a class="item">#}
+                  {#<i class="video play icon"></i>#}
+                  {#People#}
+                {#</a>#}
+              {#</div>#}
 
 
 
@@ -400,7 +390,10 @@ body {behavior: url("csshover3.htc");}
               <hr class="main-divider">
 
               <div class="row">
+                  <h2>Hook Not --> Repeat Card blocks with data from different departments for each?</h2>
                {{ page.content }}
+                  {{ page.content }}
+                  {{ page.content }}
 
               </div>
 
@@ -439,6 +432,18 @@ body {behavior: url("csshover3.htc");}
                 {#</div>#}
               {#</div>#}
 
+                <div class="ui one column grid">
+                    <div class="column">
+                        <div class="ui raised segment">
+                            <a class="ui red ribbon label">City Employee Newsletter</a>
+                            <span>IN TODAY'S CITY EMPLOYEE NEWSLETTER:</span>
+                            <p></p>
+                            <a class="ui blue ribbon label">Community</a> User Reviews
+                            <p></p>
+                        </div>
+                    </div>
+
+                </div>
 
                 <div class="ui vertical menu">
                     <a class="active teal item">New Policies
@@ -469,31 +474,31 @@ body {behavior: url("csshover3.htc");}
 
                 <div class="ui vertical menu">
                     <div class="item">
-                        <div class="header">Products</div>
+                        <div class="header">Human Resources</div>
                         <div class="menu">
-                            <a class="item">Enterprise</a>
+                            <a class="item">Employee Benefits</a>
                             <a class="item">Consumer</a>
                         </div>
                     </div>
                     <div class="item">
-                        <div class="header">CMS Solutions</div>
+                        <div class="header">Information Technology</div>
                         <div class="menu">
-                            <a class="item">Rails</a>
+                            <a class="item">Latest IT Department Annoucements</a>
                             <a class="item">Python</a>
                             <a class="item">PHP</a>
                         </div>
                     </div>
                     <div class="item">
-                        <div class="header">Hosting</div>
+                        <div class="header">Finance</div>
                         <div class="menu">
                             <a class="item">Shared</a>
                             <a class="item">Dedicated</a>
                         </div>
                     </div>
                     <div class="item">
-                        <div class="header">Support</div>
+                        <div class="header">City Manager</div>
                         <div class="menu">
-                            <a class="item">E-mail Support</a>
+                            <a class="item"></a>
                             <a class="item">FAQs</a>
                         </div>
                     </div>
@@ -598,18 +603,7 @@ body {behavior: url("csshover3.htc");}
 
             </aside>
 
-            <div class="ui one column grid">
-              <div class="column">
-                <div class="ui raised segment">
-                  <a class="ui red ribbon label">Look Who's New</a>
-                  <span>Account Details</span>
-                  <p></p>
-                  <a class="ui blue ribbon label">Community</a> User Reviews
-                  <p></p>
-                </div>
-              </div>
 
-            </div>
 
           </div>
         </div> <!-- / .row -->

@@ -1,0 +1,5 @@
+name: drushmodule
+type: module
+description: drush module
+package: Custom
+core: 8.x
