@@ -1,0 +1,5 @@
+entity.drushmodule.overview:
+  title: drushmodules
+  parent: system.admin_structure
+  description: 'List of drushmodules to extend site functionality.'
+  route_name: entity.drushmodule.collection

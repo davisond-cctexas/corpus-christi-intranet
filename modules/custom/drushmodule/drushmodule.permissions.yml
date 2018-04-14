@@ -1,4 +1,2 @@
-administer drushmodule configuration:
-  title: 'Administer drushmodule configuration'
-  description: 'Optional description.'
-  restrict access: true
+administer drushmodule:
+  title: 'Administer drushmodule'

@@ -1,5 +1,6 @@
 name: drushmodule
 type: module
-description: drush module
+description: 'Provides a drushmodule configuration entity.'
 package: Custom
 core: 8.x
+configure: entity.drushmodule.collection

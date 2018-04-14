@@ -290,33 +290,67 @@ body {behavior: url("csshover3.htc");}
             <aside class="aside">
                {{ page.sidebar_first }}
 
+   
+                     <div class="ui one column grid">
+                    <div class="column">
+                        <div class="ui raised segment">
+                            <a class="ui red ribbon label">
+                            
+                               Latest City Employee Newsletter</a> 
+                     
+                            <p></p>
+                     <!--            <i class="huge blue file pdf icon"></i>
+                                <button class="ui button">
+                    <i class="user icon"></i>
+                    Follow
+                </button> -->
+                                <p> </p>
+                            <a class=" ui blue  ribbon label">Latest from HR</a>
+                            <span>  test</span>
+                            <p>test</p>
+                              <a class=" ui teal ribbon label">Latest from IT</a>
+                           
+                        </div>
+                    </div>
+
+                </div>
+
+                      <div class="ui vertical menu">
+                    <div class="item">
+                        <div class="header">Human Resources</div>
+                        <div class="menu">
+                            <a class="item">Employee Benefits</a>
+                            <a class="item">Consumer</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="header">Information Technology</div>
+                        <div class="menu">
+                            <a class="item">Latest IT Department Annoucements</a>
+                            <a class="item">Python</a>
+                            <a class="item">PHP</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="header">Finance</div>
+                        <div class="menu">
+                            <a class="item">Shared</a>
+                            <a class="item">Dedicated</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="header">City Manager</div>
+                        <div class="menu">
+                            <a class="item"></a>
+                            <a class="item">FAQs</a>
+                        </div>
+                    </div>
+                </div>
+
 
             </aside>
 
-              <div class="ui card">
-                  <div class="content">
-                      <div class="header">City Employee Newsletter</div>
-                  </div>
-                  <div class="content">
-                      <h4 class="ui sub header">   In today's City Employee Newsletter:</h4>
-                      <div class="ui small feed">
-                          <div class="event">
-                              <div class="content">
-                                  <div class="summary">
-
-
-                                      Calling all artists! Here's an opportunity to flex those creative muscles.
-                                      Speaking of muscles, meet our Wellness Coordinator - your resource for healthier living.
-                                      See what you can do to help our local Meals on Wheels Program.
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="extra content">
-                      <button class="ui button">Read</button>
-                  </div>
-              </div>
+       
 
 
           </div>
@@ -325,7 +359,7 @@ body {behavior: url("csshover3.htc");}
             <!-- Main -->
             <main class="main">
 
-            {#{{ page.highlighted }}#}
+            {{ page.highlighted }}
               {#<div class="ui grid">#}
                 {#<div class="twelve wide stretched column">#}
                   {#<div class="ui segment">#}
@@ -390,13 +424,85 @@ body {behavior: url("csshover3.htc");}
               <hr class="main-divider">
 
               <div class="row">
-                  <h2>Hook Not --> Repeat Card blocks with data from different departments for each?</h2>
-               {{ page.content }}
+
+                  {#<div class="main-news">#}
+                      {#<div class="row no-gutters">#}
+                          {#<div class="col-md-4 col-xl-3">#}
+
+                              {#<!-- Pills -->#}
+                              {#<ul class="nav nav-pills" id="pills-tab" role="tablist">#}
+                                  {#<li class="nav-item">#}
+                                      {#<a class="nav-link active" id="pills-1-tab" role="tab" aria-selected="true" aria-controls="pills-1" href="#pills-1" data-toggle="pill">#}
+                                          {#<h4>What's New</h4>#}
+                                          {#<p>#}
+                                              {#Our brand new corporate intranet#}
+                                          {#</p>#}
+                                      {#</a>#}
+                                  {#</li>#}
+                                  {#<li class="nav-item">#}
+                                      {#<a class="nav-link" id="pills-2-tab" role="tab" aria-selected="false" aria-controls="pills-2" href="#pills-2" data-toggle="pill">#}
+                                          {#<h4>Forms</h4>#}
+                                          {#<p>#}
+                                              {#Learn about new policies#}
+                                          {#</p>#}
+                                      {#</a>#}
+                                  {#</li>#}
+                                  {#<li class="nav-item">#}
+                                      {#<a class="nav-link" id="pills-3-tab" role="tab" aria-selected="false" aria-controls="pills-3" href="#pills-3" data-toggle="pill">#}
+                                          {#<h4>People</h4>#}
+                                          {#<p>#}
+                                              {#Search people directory#}
+                                          {#</p>#}
+                                      {#</a>#}
+                                  {#</li>#}
+                                  {#<li class="nav-item">#}
+                                      {#<a class="nav-link" id="pills-4-tab" role="tab" aria-selected="false" aria-controls="pills-4" href="#pills-4" data-toggle="pill">#}
+                                          {#<h4>City Manager</h4>#}
+                                          {#<p>#}
+                                              {#Latest CM comments#}
+                                          {#</p>#}
+                                      {#</a>#}
+                                  {#</li>#}
+                              {#</ul>#}
+
+                          {#</div>#}
+                          {#<div class="col-md-8 col-xl-9">#}
+
+                              {#<!-- Content -->#}
+                              {#<div class="tab-content" id="pills-tabContent">#}
+                                  {#<div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">#}
+                                      {#<img class="img-fluid" alt="What's New Image" src="http://placehold.it/1920x1280">#}
+                                  {#</div>#}
+                                  {#<div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">#}
+                                      {#<img class="img-fluid" alt="Forms Image" src="http://placehold.it/1920x1280">#}
+                                  {#</div>#}
+                                  {#<div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="pills-3-tab">#}
+                                      {#<img class="img-fluid" alt="People Image" src="http://placehold.it/1920x1280">#}
+                                  {#</div>#}
+                                  {#<div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="pills-4-tab">#}
+                                      {#<img class="img-fluid" alt="City Manager Image" src="http://placehold.it/1920x1280">#}
+                                  {#</div>#}
+                              {#</div>#}
+
+                          {#</div>#}
+                      {#</div> <!-- / .row -->#}
+                  {#</div>#}
+
                   {{ page.content }}
-                  {{ page.content }}
+
+                  <p>------------------------------------------DEBUG--------------------------------</p>
+
+                  <pre>{{ dump() }}</pre>
+
+
+
+
 
               </div>
 
+              <br>  <br>
+
+      
             </main>
 
           </div>
@@ -404,6 +510,77 @@ body {behavior: url("csshover3.htc");}
 
             <!-- A1side -->
             <aside class="aside">
+
+            <!--     Example
+
+                <i class="bordered users icon"></i>
+                <i class="bordered teal users icon"></i>
+                <i class="bordered inverted black users icon"></i>
+                <i class="bordered inverted teal users icon"></i>
+                <i class="circular users icon"></i>
+                <i class="circular teal users icon"></i>
+                <i class="circular inverted users icon"></i>
+                <i class="circular inverted teal users icon"></i>
+
+                <div class="ui inverted segment">
+                    <i class="inverted users icon"></i>
+                    <i class="inverted red users icon"></i>
+                    <i class="inverted orange users icon"></i>
+                    <i class="inverted yellow users icon"></i>
+                    <i class="inverted olive users icon"></i>
+                    <i class="inverted green users icon"></i>
+                    <i class="inverted teal users icon"></i>
+                    <i class="inverted blue users icon"></i>
+                    <i class="inverted violet users icon"></i>
+                    <i class="inverted purple users icon"></i>
+                    <i class="inverted pink users icon"></i>
+                    <i class="inverted brown users icon"></i>
+                    <i class="inverted grey users icon"></i>
+                </div>
+
+                <button class="ui active button">
+                    <i class="user icon"></i>
+                    Follow
+                </button> -->
+
+
+       <div class="ui card">
+                  <div class="content">
+                      <div class="header">            City Employee Newsletter</div>
+                           <a class="ui  ribbon label">
+                            
+                               Latest City Employee Newsletter</a> 
+                     
+                            <p></p>
+                                <i class="large red file pdf icon"></i>
+                    
+                  </div>
+                  <div class="content">
+                      <h4 class="ui sub header">   In today's City Employee Newsletter:</h4>
+                      <div class="ui small feed">
+                          <div class="event">
+                              <div class="content">
+                                  <div class="summary">
+
+
+                                      Calling all artists! Here's an opportunity to flex those creative muscles.
+                                      Speaking of muscles, meet our Wellness Coordinator - your resource for healthier living.
+                                      See what you can do to help our local Meals on Wheels Program.
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="extra content">
+                                <button class="ui button small">
+                    <i class="large red file pdf icon"></i>
+                    Read
+                </button>
+                <button class="ui red basic button"> <i class="large red file pdf icon"></i>test</button>
+                     
+                  </div>
+              </div>
+
               {#<div class="ui relaxed divided list">#}
                 {#<a class="item" href="">#}
                   {#<i class="arrow circle right icon"></i>#}
@@ -432,78 +609,77 @@ body {behavior: url("csshover3.htc");}
                 {#</div>#}
               {#</div>#}
 
-                <div class="ui one column grid">
-                    <div class="column">
-                        <div class="ui raised segment">
-                            <a class="ui red ribbon label">City Employee Newsletter</a>
-                            <span>IN TODAY'S CITY EMPLOYEE NEWSLETTER:</span>
-                            <p></p>
-                            <a class="ui blue ribbon label">Community</a> User Reviews
-                            <p></p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="ui vertical menu">
+            <div class="ui vertical menu">
                     <a class="active teal item">New Policies
                         <div class="ui teal left pointing label">3</div>
                     </a>
                     <a class="item">
-                        Updated  Policies
+                        Updated HR Policies
                         <div class="ui label">5</div>
                     </a>
                     <a class="item">
-                        Updates
+                        New Fire Policies
                         <div class="ui label">1</div>
                     </a>
                     <div class="item">
                         <div class="ui transparent icon input">
-                            <input type="text" placeholder="Search mail...">
+                            <input type="text" placeholder="Search Policies...">
                             <i class="search icon"></i>
                         </div>
                     </div>
                 </div>
 
+
+            
                 <div class="ui relaxed divided list">
               {{ page.sidebar_second }}
 
 
               </div>
 
-
-                <div class="ui vertical menu">
-                    <div class="item">
-                        <div class="header">Human Resources</div>
-                        <div class="menu">
-                            <a class="item">Employee Benefits</a>
-                            <a class="item">Consumer</a>
+                   <p> Look Who's New!</p>
+                <div class="ui card">
+                    <div class="content">
+                        <div class="center aligned header">Jenny Hess</div>
+                        <div class="center aligned description">
+                            <p>Jenny is a student studying Media Management at the New School</p>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="header">Information Technology</div>
-                        <div class="menu">
-                            <a class="item">Latest IT Department Annoucements</a>
-                            <a class="item">Python</a>
-                            <a class="item">PHP</a>
+                    <div class="extra content">
+                        <div class="center aligned author">
+                            <img class="ui avatar image" src="/themes/cctx/img/jenny.jpg"> Jenny
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="header">Finance</div>
-                        <div class="menu">
-                            <a class="item">Shared</a>
-                            <a class="item">Dedicated</a>
+                </div>
+                   <div class="ui card">
+                    <div class="content">
+                        <div class="center aligned header">Jenny Hess</div>
+                        <div class="center aligned description">
+                            <p>Jenny is a student studying Media Management at the New School</p>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="header">City Manager</div>
-                        <div class="menu">
-                            <a class="item"></a>
-                            <a class="item">FAQs</a>
+                    <div class="extra content">
+                        <div class="center aligned author">
+                            <img class="ui avatar image" src="/themes/cctx/img/jenny.jpg"> Jenny
+                        </div>
+                    </div>
+                </div>
+                   <div class="ui card">
+                    <div class="content">
+                        <div class="center aligned header">Jenny Hess</div>
+                        <div class="center aligned description">
+                            <p>Jenny is a student studying Media Management at the New School</p>
+                        </div>
+                    </div>
+                    <div class="extra content">
+                        <div class="center aligned author">
+                            <img class="ui avatar image" src="/themes/cctx/img/jenny.jpg"> Jenny
                         </div>
                     </div>
                 </div>
 
+
+          
 
 
                 <div class="ui vertical menu">

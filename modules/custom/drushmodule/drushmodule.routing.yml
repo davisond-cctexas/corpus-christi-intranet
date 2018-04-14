@@ -1,15 +1,31 @@
-drushmodule.example:
-  path: '/drushmodule/example'
+entity.drushmodule.collection:
+  path: '/admin/structure/drushmodule'
   defaults:
-    _title: 'Example'
-    _controller: '\Drupal\drushmodule\Controller\DrushmoduleController::build'
+    _entity_list: 'drushmodule'
+    _title: 'drushmodule configuration'
   requirements:
-    _permission: 'access content'
+    _permission: 'administer drushmodule'
 
-drushmodule.settings_form:
-  path: '/admin/config/system/drushmodule'
+entity.drushmodule.add_form:
+  path: '/admin/structure/drushmodule/add'
   defaults:
-    _title: 'drushmodule settings'
-    _form: 'Drupal\drushmodule\Form\SettingsForm'
+    _entity_form: 'drushmodule.add'
+    _title: 'Add a drushmodule'
   requirements:
-    _permission: 'administer drushmodule configuration'
+    _permission: 'administer drushmodule'
+
+entity.drushmodule.edit_form:
+  path: '/admin/structure/drushmodule/{drushmodule}'
+  defaults:
+    _entity_form: 'drushmodule.edit'
+    _title: 'Edit a drushmodule'
+  requirements:
+    _permission: 'administer drushmodule'
+
+entity.drushmodule.delete_form:
+  path: '/admin/structure/drushmodule/{drushmodule}/delete'
+  defaults:
+    _entity_form: 'drushmodule.delete'
+    _title: 'Delete a drushmodule'
+  requirements:
+    _permission: 'administer drushmodule'

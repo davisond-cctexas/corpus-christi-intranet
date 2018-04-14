@@ -10,7 +10,7 @@ your system.
 First, you must create a new database for your Drupal site (here, 'databasename'
 is the name of the new database):
 
-  mysqladmin -u username -p create databasename
+  mysqladmin -u root -p create drupal8
 
 MySQL will prompt for the 'username' database password and then create the
 initial database files. Next you must log in and set the access database rights:
@@ -21,8 +21,8 @@ Again, you will be asked for the 'username' database password. At the MySQL
 prompt, enter the following command:
 
   GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX, ALTER,
-  CREATE TEMPORARY TABLES ON databasename.*
-  TO 'username'@'localhost' IDENTIFIED BY 'password';
+  CREATE TEMPORARY TABLES ON drupal8.*
+  TO 'root'@'localhost' IDENTIFIED BY 'velu12';
 
 where:
 

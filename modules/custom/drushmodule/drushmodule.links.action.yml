@@ -1,0 +1,5 @@
+entity.drushmodule.add_form:
+  route_name: 'entity.drushmodule.add_form'
+  title: 'Add drushmodule'
+  appears_on:
+    - entity.drushmodule.collection

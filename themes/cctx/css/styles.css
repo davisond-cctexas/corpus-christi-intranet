@@ -50,7 +50,7 @@
     a:visited {
         text-decoration: underline
     }
-    abbr[title]:after {drush
+    abbr[title]:after {
         content: " (" attr(title) ")"
     }
     pre {
