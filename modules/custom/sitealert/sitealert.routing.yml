@@ -1,0 +1,31 @@
+entity.sitealert.collection:
+  path: '/admin/structure/sitealert'
+  defaults:
+    _entity_list: 'sitealert'
+    _title: 'sitealert configuration'
+  requirements:
+    _permission: 'administer sitealert'
+
+entity.sitealert.add_form:
+  path: '/admin/structure/sitealert/add'
+  defaults:
+    _entity_form: 'sitealert.add'
+    _title: 'Add a sitealert'
+  requirements:
+    _permission: 'administer sitealert'
+
+entity.sitealert.edit_form:
+  path: '/admin/structure/sitealert/{sitealert}'
+  defaults:
+    _entity_form: 'sitealert.edit'
+    _title: 'Edit a sitealert'
+  requirements:
+    _permission: 'administer sitealert'
+
+entity.sitealert.delete_form:
+  path: '/admin/structure/sitealert/{sitealert}/delete'
+  defaults:
+    _entity_form: 'sitealert.delete'
+    _title: 'Delete a sitealert'
+  requirements:
+    _permission: 'administer sitealert'

@@ -1,0 +1,14 @@
+sitealert.sitealert.*:
+  type: config_entity
+  label: sitealert
+  mapping:
+    id:
+      type: string
+      label: ID
+    label:
+      type: label
+      label: Label
+    uuid:
+      type: string
+    description:
+      type: string

@@ -1,0 +1,6 @@
+name: drushmodule
+type: module
+description: 'Provides a sitealert configuration entity.'
+package: Custom
+core: 8.x
+configure: entity.sitealert.collection

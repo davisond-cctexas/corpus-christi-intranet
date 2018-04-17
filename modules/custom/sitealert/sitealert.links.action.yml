@@ -1,0 +1,5 @@
+entity.sitealert.add_form:
+  route_name: 'entity.sitealert.add_form'
+  title: 'Add sitealert'
+  appears_on:
+    - entity.sitealert.collection
