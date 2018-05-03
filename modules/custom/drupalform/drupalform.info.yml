@@ -1,5 +1,5 @@
 name: Drupal Form Example
-description: 'drupal form'
-type: module
-version: 1.0
-core: 8.x
+         description: 'drupal form'
+         type: module
+         version: 1.0
+         core: 8.x

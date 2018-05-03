@@ -15,7 +15,7 @@ base:
     base:
       css/styles.css: {}
       css/drupal.css: {}
-      css/Semantic-UI-CSS-master/semantic.min.css: {}
+      css/Semantic-UI-CSS-master/semantic.css: {}
   js:
     js/theme.js: {}
     css/Semantic-UI-CSS-master/semantic.min.js: {}
