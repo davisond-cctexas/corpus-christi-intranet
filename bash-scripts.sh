@@ -1,4 +1,5 @@
 #!/bin/bash
+http://52.243.27.107/
 sudo chown -R $USER:$USER /var/www/coastalbendstormexpo.com/public_html
 sudo chown -R $USER:$USER /var/www/water.calculator.cctexas.com/public_html
 # EDITING SITE
@@ -11,6 +12,8 @@ sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-availab
 sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/water.calculator.cctexas.com.conf
 davisond@13.72.177.88 Public Port: 62664
 SSH-PrivateKey: WebAdmin091501!
+davisond-cctexas
+Velu12!@#$
 WebAdmin.ppk & WebAdmin.pub
 davisond@13.72.177.88 DavidD091501!
 ################################################################# PROVISIONING ################################################################# 
