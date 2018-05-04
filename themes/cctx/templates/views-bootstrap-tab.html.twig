@@ -1,34 +1,120 @@
-{% if title is not empty %}
-    <h3>{{ title }}</h3>
-{% endif %}
 <div class="row main-row">
-    <div class="col-xl-8">
-        <div class="main-news">
-            <div class="row no-gutters">
-                <div class="col-md-4 col-xl-3">
-                    <ul class="nav nav-{{ tab_type }} {% if justified %}nav-justified{% endif %}" id="pills-tab" role="tablist">
-                        {% for key, tab in tabs %}
-                        {% set tab_classes = [loop.first ? 'active'] %}
-                        <li class="nav-item {{ tab_classes|join(' ') }}">
-                             <a href="{{ "#tab-#{  id }-#{ key }" }}" data-toggle="tab">{{ tab }}</a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                <div class="col-md-8 col-xl-9">
-                    <div class="tab-content" id="pills-tabContent"> 
-                        {% for key, row in rows %}
-                        {% set row_classes = ['tab-pane', loop.first ? 'active'] %}
-                        <div class="tab-pane fade{{ row_classes|join(' ') }}" id="tab-{{ id }}-{{ key }}" {{ row.attributes }}>
-                        {{ row.content }}
+                <div class="col-xl-6">
+
+                  <!-- News -->
+                  <div class="main-news">
+                    <div class="row no-gutters">
+                      <div class="col-md-4 col-xl-3">
+
+                        <!-- Pills -->
+                        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active" id="pills-1-tab" data-toggle="pill" href="#pills-1" role="tab" aria-controls="pills-1" aria-selected="true">
+                              <h4>What's New</h4>
+                              <p>
+                                Our brand new corporate intranet
+                              </p>
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="pills-2-tab" data-toggle="pill" href="#pills-2" role="tab" aria-controls="pills-2" aria-selected="false">
+                              <h4>Forms</h4>
+                              <p>
+                                Learn about new policies
+                              </p>
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="pills-3-tab" data-toggle="pill" href="#pills-3" role="tab" aria-controls="pills-3" aria-selected="false">
+                              <h4>People</h4>
+                              <p>
+                                Search people directory
+                              </p>
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="pills-4-tab" data-toggle="pill" href="#pills-4" role="tab" aria-controls="pills-4" aria-selected="false">
+                              <h4>City Manager</h4>
+                              <p>
+                                Latest CM comments
+                              </p>
+                            </a>
+                          </li>
+                        </ul> 
+
+                      </div>
+                      <div class="col-md-8 col-xl-9">
+                        
+                        <!-- Content -->
+                        <div class="tab-content" id="pills-tabContent">
+                          <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
+                            <img src="http://web01-prd-cctx-app01.ccpd.net/themes/cctx/img/image.jpg" class="img-fluid" alt="What's New Image">
+                          </div>
+                          <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
+                            <img src="http://placehold.it/1920x1280" class="img-fluid" alt="Forms Image">
+                          </div>
+                          <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="pills-3-tab">
+                            <img src="http://placehold.it/1920x1280" class="img-fluid" alt="People Image">
+                          </div>
+                          <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="pills-4-tab">
+                            <img src="http://placehold.it/1920x1280" class="img-fluid" alt="City Manager Image">
+                          </div>
                         </div>
-                    {% endfor %}
-                    </div>
+
+                      </div>
+                    </div> <!-- / .row -->
+                  </div>
+                  
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-xl-4">
-      <dd>{{ drupal_block('sliderlinks', false) }}</dd>
-    </div> 
-</div>
+                <div class="col-xl-4">
+                  
+                  <!-- Tiles -->
+                  <div class="main-tiles">
+                    <div class="row no-gutters">
+                      <div class="col-5">
+                        
+                        <a href="#" class="main-tiles-item">
+                          <img src="/themes/cctx/img/tile-1.png" alt="Policies Image">
+                          <span>
+                            Policies
+                          </span>
+                        </a>
+
+                      </div>
+                      <div class="col-7">
+                        
+                        <a href="#" class="main-tiles-item">
+                          <img src="/themes/cctx/img/tile-2.png" alt="Application &amp; Information Image">
+                          <span>
+                            Application &amp; Information
+                          </span>
+                        </a>
+
+                      </div>
+                    </div> <!-- / .row -->
+                    <div class="row no-gutters">
+                      <div class="col-7">
+                        
+                        <a href="#" class="main-tiles-item">
+                          <img src="/themes/cctx/img/tile-3.png" alt="Payroll Calendar Image">
+                          <span>
+                            Payroll Calendar
+                          </span>
+                        </a>
+
+                      </div>
+                      <div class="col-5">
+                        
+                        <a href="#" class="main-tiles-item">
+                          <img src="/themes/cctx/img/tile-4.png" alt="People Image">
+                          <span>
+                            People
+                          </span>
+                        </a>
+
+                      </div>
+                    </div> <!-- / .row -->
+                  </div>
+
+                </div>
+              </div>

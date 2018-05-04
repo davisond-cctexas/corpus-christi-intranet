@@ -2,11 +2,131 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4ac413b-27d1-4faa-ae4d-5b65754eeb61" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/favicon/apple-touch-icon-114x114.png" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/favicon/apple-touch-icon-120x120.png" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/favicon/apple-touch-icon-144x144.png" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/favicon/apple-touch-icon-152x152.png" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/favicon/apple-touch-icon-57x57.png" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/favicon/apple-touch-icon-60x60.png" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/favicon/apple-touch-icon-72x72.png" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/favicon/apple-touch-icon-76x76.png" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/favicon/favicon-128.png" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/favicon/favicon-16x16.png" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/favicon/favicon-196x196.png" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/favicon/favicon-32x32.png" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/favicon/favicon-96x96.png" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/favicon/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/favicon/mstile-144x144.png" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/favicon/mstile-150x150.png" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/favicon/mstile-310x150.png" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/favicon/mstile-310x310.png" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/favicon/mstile-70x70.png" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/images/Home_Hero.jpg" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/images/Michelle_Barrera.jpg" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/images/bird.jpg" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/images/cc-careers-area-img.jpg" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/images/cc-sail-boats.jpg" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/images/coast.jpg" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/images/construction.jpg" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/images/header-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/images/hero-sailboats.png" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/images/hero_sailboats.png" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/images/heron.jpg" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/images/home-hero.jpg" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/images/kids_recycling.jpg" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/images/news_boats.jpg" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/images/oldmap.jpg" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/images/pelicans.jpg" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/images/pergola.jpg" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/images/plant.jpg" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/images/sailboats.jpg" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/images/video1.png" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/images/video2.png" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/images/video3.png" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/images/video4.png" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/images/yachts.jpg" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/images/header-logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/images/tail-arrow-right.svg" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/js/base.js" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/js/styles.js" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/pages/article.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/pages/contact-us.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/pages/department.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/pages/departments.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/pages/detailed-info.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/pages/email.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/pages/error.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/pages/event.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/pages/events.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/pages/index.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/pages/kiosk.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/pages/promotion.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/pages/search.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/pages/service-category.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/pages/service.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/pages/services.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/partials/blocks/content-block.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/partials/blocks/link-block.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/partials/blocks/video-block.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/partials/department-social-media.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/partials/favicon.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/partials/flex-content-area.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/partials/footer.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/partials/global-nav.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/partials/gtm-no-script.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/partials/head.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/partials/hero.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/partials/kiosk-header.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/partials/pagination.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/partials/photo-content-area.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/partials/reference-block.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/partials/skip-to-main.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/partials/tweet-block.pug" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/app.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/customizations.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/globals/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/globals/_colors.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/globals/_footer.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/globals/_forms.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/globals/_headings.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/globals/_lists.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/globals/_main.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/globals/_nav.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/globals/_pagination.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/globals/_print.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/globals/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/objects/_basic-block.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/objects/_button-block.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/objects/_calendar-events.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/objects/_comment-form.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/objects/_department-social-media.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/objects/_flex-content-area.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/objects/_gsc-search-block.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/objects/_header-block.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/objects/_headline-list.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/objects/_large-headline.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/objects/_link-block.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/objects/_pay-report.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/objects/_photo-content-area.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/objects/_quote-block.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/objects/_raised-block.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/objects/_reference-block.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/objects/_sitemap.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/objects/_tweet-block.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/objects/_video-block.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/pages/_contact-us.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/pages/_index.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/pages/_kiosk.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/pages/_promotion.scss" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/corpus-christi-water-calculator/frontend/scss/pages/_search.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bash-scripts.sh" afterPath="$PROJECT_DIR$/bash-scripts.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cctx/templates/page--front.html.twig" afterPath="$PROJECT_DIR$/themes/cctx/templates/page--front.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cctx/templates/views-bootstrap-tab.html.twig" afterPath="$PROJECT_DIR$/themes/cctx/templates/views-bootstrap-tab.html.twig" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/corpus-christi-water-calculator/app.js" afterPath="$USER_HOME$/corpus-christi-water-calculator/app.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/corpus-christi-water-calculator/index.php" afterPath="$USER_HOME$/corpus-christi-water-calculator/index.php" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/corpus-christi-water-calculator/scripts/build" afterPath="$USER_HOME$/corpus-christi-water-calculator/scripts/build" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/corpus-christi-water-calculator/sftp-config.json" afterPath="$USER_HOME$/corpus-christi-water-calculator/sftp-config.json" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/corpus-christi-water-calculator/test.php" afterPath="$USER_HOME$/corpus-christi-water-calculator/test.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,59 +156,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="water-calculator.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/corpus-christi-water-calculator/water-calculator.html">
+      <file leaf-file-name="drupal.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/cctx/css/drupal.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+            <state relative-caret-position="128">
+              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/corpus-christi-water-calculator/index.php">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/cctx/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="49" lean-forward="false" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="71" />
-              <folding>
-                <element signature="e#20035#20120#0#PHP" expanded="true" />
-                <marker date="1523478698281" expanded="false" signature="13064:13078" ph="..." />
-                <marker date="1523478698281" expanded="false" signature="13427:13449" ph="..." />
-                <marker date="1523478698281" expanded="false" signature="14692:14729" ph="..." />
-                <marker date="1523478698281" expanded="false" signature="15099:15136" ph="..." />
-                <marker date="1523478698281" expanded="false" signature="15545:15582" ph="..." />
-                <marker date="1523478698281" expanded="false" signature="15970:16007" ph="..." />
-                <marker date="1523478698281" expanded="false" signature="16325:16343" ph="..." />
-                <marker date="1523478698281" expanded="false" signature="16614:16620" ph=" " />
-                <marker date="1523478698281" expanded="false" signature="16770:16785" ph="..." />
-                <marker date="1523478698281" expanded="false" signature="17013:17028" ph="..." />
-                <marker date="1523478698281" expanded="false" signature="17260:17275" ph="..." />
-                <marker date="1523478698281" expanded="false" signature="17508:17523" ph="..." />
-                <marker date="1523478698281" expanded="false" signature="17533:17537" ph="&gt;" />
-                <marker date="1523478698281" expanded="false" signature="17743:17749" ph=" " />
-                <marker date="1523478698281" expanded="false" signature="17977:17983" ph=" " />
-                <marker date="1523478698281" expanded="false" signature="18009:18015" ph=" " />
-                <marker date="1523478698281" expanded="false" signature="18041:18047" ph=" " />
-                <marker date="1523478698281" expanded="false" signature="18148:18163" ph="..." />
-                <marker date="1523478698281" expanded="false" signature="18344:18350" ph=" " />
-                <marker date="1523478698281" expanded="false" signature="18512:18527" ph="..." />
-                <marker date="1523478698281" expanded="false" signature="18706:18712" ph=" " />
-                <marker date="1523478698281" expanded="false" signature="18865:18871" ph=" " />
-                <marker date="1523478698281" expanded="false" signature="18897:18903" ph=" " />
-                <marker date="1523478698281" expanded="false" signature="18929:18935" ph=" " />
-                <marker date="1523478698281" expanded="false" signature="19003:19018" ph="..." />
-                <marker date="1523478698281" expanded="false" signature="19092:19098" ph=" " />
-              </folding>
+            <state relative-caret-position="71">
+              <caret line="655" column="21" lean-forward="true" selection-start-line="655" selection-start-column="21" selection-end-line="655" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iframe-content.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/corpus-christi-water-calculator/iframe-content.js">
+      <file leaf-file-name="index.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/corpus-christi-water-calculator/views/index.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="1110" column="0" lean-forward="true" selection-start-line="1110" selection-start-column="0" selection-end-line="1110" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deploy-production" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/corpus-christi-water-calculator/scripts/deploy-production">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deploy-sbx" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/corpus-christi-water-calculator/scripts/deploy-sbx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colorbox.settings.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/contrib/colorbox/config/install/colorbox.settings.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views-bootstrap-tab.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/cctx/templates/views-bootstrap-tab.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="19" column="122" lean-forward="false" selection-start-line="19" selection-start-column="122" selection-end-line="19" selection-end-column="122" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/README.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.cycle.all.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libraries/jquery.cycle/jquery.cycle.all.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="114" column="23" lean-forward="true" selection-start-line="114" selection-start-column="23" selection-end-line="114" selection-end-column="23" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -96,21 +248,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show-examples.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/corpus-christi-water-calculator/show-examples.js">
+      <file leaf-file-name="bash-scripts.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bash-scripts.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cctx.libraries.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/cctx/cctx.libraries.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -141,10 +283,12 @@
       <find>field</find>
       <find>content</find>
       <find>ui right l</find>
+      <find>u</find>
+      <find>whats</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/corpus-christi-water-calculator" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -155,13 +299,11 @@
         <option value="$PROJECT_DIR$/themes/cctx/templates/form.html.twig" />
         <option value="$PROJECT_DIR$/water-calculator/index.html" />
         <option value="$PROJECT_DIR$/themes/cctx/cctx.libraries.yml" />
-        <option value="$PROJECT_DIR$/themes/cctx/templates/views-bootstrap-tab.html.twig" />
         <option value="$PROJECT_DIR$/themes/cctx/templates/menu--main.html.twig" />
         <option value="$PROJECT_DIR$/themes/cctx/templates/node.html.twig" />
         <option value="$PROJECT_DIR$/themes/cctx/templates/html--node--10.html.twig" />
         <option value="$PROJECT_DIR$/themes/cctx/templates/html--node--%.html.twig" />
         <option value="$PROJECT_DIR$/themes/cctx/templates/html.html.twig" />
-        <option value="$PROJECT_DIR$/themes/cctx/templates/page--front.html.twig" />
         <option value="$PROJECT_DIR$/themes/cctx/css/styles.css" />
         <option value="$PROJECT_DIR$/modules/custom/drupalform/drupalform.routing.yml" />
         <option value="$PROJECT_DIR$/modules/custom/drupalform/src/form/Exampleform.php" />
@@ -169,6 +311,10 @@
         <option value="$PROJECT_DIR$/themes/cctx/templates/page.html.twig" />
         <option value="$PROJECT_DIR$/themes/cctx/templates/page--node.html.twig" />
         <option value="$USER_HOME$/corpus-christi-water-calculator/index.php" />
+        <option value="$PROJECT_DIR$/themes/cctx/templates/page--front.html.twig" />
+        <option value="$PROJECT_DIR$/themes/cctx/templates/views-bootstrap-tab.html.twig" />
+        <option value="$PROJECT_DIR$/bash-scripts.sh" />
+        <option value="$USER_HOME$/corpus-christi-water-calculator/scripts/deploy-sbx" />
       </list>
     </option>
   </component>
@@ -178,10 +324,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$USER_HOME$/corpus-christi-water-calculator/node_modules" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="y" value="22" />
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
@@ -203,7 +352,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -226,6 +374,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corpus-christi-intranet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corpus-christi-water-calculator" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Semantic-UI-CSS-master" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -244,8 +406,30 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="semantic.css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corpus-christi-intranet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corpus-christi-water-calculator" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -264,6 +448,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,7 +456,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="last_opened_file_path" value="$USER_HOME$/corpus-christi-water-calculator" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file://C:/Users/DavisonD/corpus-christi-water-calculator/index.php&#10;ssh&#9;ACTION&#9;com.jetbrains.plugins.remotesdk.console.RunSshConsoleAction&#10;depl&#9;ACTION&#9;PublishGroup&#10;SSH&#9;ACTION&#9;com.jetbrains.plugins.remotesdk.console.RunSshConsoleAction&#10;pres&#9;ACTION&#9;TogglePresentationMode&#10;format&#9;ACTION&#9;ReformatCode&#10;prese&#9;ACTION&#9;TogglePresentationMode&#10;settings&#9;ACTION&#9;Database.Settings&#10;presen&#9;ACTION&#9;TogglePresentationMode&#10;project&#9;ACTION&#9;ActivateProjectToolWindow&#10;split&#9;ACTION&#9;SplitVertically&#10;pro&#9;ACTION&#9;ActivateProjectToolWindow&#10;autom&#9;ACTION&#9;WebDeployment.ToggleAutoUpload&#10;ss&#9;ACTION&#9;com.jetbrains.plugins.remotesdk.console.RunSshConsoleAction&#10;brow&#9;ACTION&#9;WebDeployment.BrowseServers" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/DavisonD/corpus-christi-intranet/themes/cctx/templates/views-bootstrap-tab.html.twig&#10;page&#9;FILE&#9;file://C:/Users/DavisonD/corpus-christi-intranet/themes/cctx/templates/page--front.html.twig&#10;fron&#9;FILE&#9;file://C:/Users/DavisonD/corpus-christi-intranet/themes/cctx/templates/page--front.html.twig&#10;view&#9;FILE&#9;file://C:/Users/DavisonD/corpus-christi-intranet/themes/cctx/templates/views-bootstrap-tab.html.twig&#10;index&#9;FILE&#9;file://C:/Users/DavisonD/corpus-christi-water-calculator/index.php&#10;ssh&#9;ACTION&#9;com.jetbrains.plugins.remotesdk.console.RunSshConsoleAction&#10;depl&#9;ACTION&#9;PublishGroup&#10;SSH&#9;ACTION&#9;com.jetbrains.plugins.remotesdk.console.RunSshConsoleAction&#10;pres&#9;ACTION&#9;TogglePresentationMode&#10;format&#9;ACTION&#9;ReformatCode&#10;prese&#9;ACTION&#9;TogglePresentationMode&#10;settings&#9;ACTION&#9;Database.Settings&#10;presen&#9;ACTION&#9;TogglePresentationMode&#10;project&#9;ACTION&#9;ActivateProjectToolWindow&#10;split&#9;ACTION&#9;SplitVertically&#10;pro&#9;ACTION&#9;ActivateProjectToolWindow&#10;autom&#9;ACTION&#9;WebDeployment.ToggleAutoUpload&#10;ss&#9;ACTION&#9;com.jetbrains.plugins.remotesdk.console.RunSshConsoleAction&#10;brow&#9;ACTION&#9;WebDeployment.BrowseServers" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
@@ -282,6 +467,8 @@
     <property name="node.js.selected.package.eslint" value="C:\Users\DavisonD\corpus-christi-water-calculator\node_modules\eslint" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="nodejs.protractor.protractor_package" value="" />
+    <property name="nodejs.jest.jest_package" value="" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -309,11 +496,17 @@
       <TestRunner directory="$USER_HOME$/corpus-christi-water-calculator" />
       <method />
     </configuration>
+    <configuration default="true" type="AppEnginePhpConfigurationType" factoryName="App Engine for PHP">
+      <method />
+    </configuration>
     <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
       <method />
     </configuration>
     <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
       <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="FirefoxRemoteDebugType" factoryName="Firefox Remote">
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
@@ -348,6 +541,12 @@
     </configuration>
     <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
       <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="ReactNative" factoryName="React Native">
+      <node-interpreter value="project" />
+      <platform value="ANDROID" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -395,6 +594,9 @@
     <option name="myEncoding" value="UTF-8" />
     <option name="myConnectionType" value="NONE" />
   </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -410,11 +612,12 @@
       <workItem from="1523470914102" duration="265000" />
       <workItem from="1523472579249" duration="619000" />
       <workItem from="1523473486339" duration="5228000" />
+      <workItem from="1525362676970" duration="12482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52928000" />
+    <option name="totallyTimeSpent" value="65410000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -426,22 +629,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38588753" sideWeight="0.50852877" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23042999" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19735391" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23153253" sideWeight="0.4914712" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.141258" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18283582" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23153253" sideWeight="0.4914712" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.195629" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20309168" sideWeight="0.7015782" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.20309168" sideWeight="0.2984218" order="2" side_tool="true" content_ui="tabs" x="2638" y="39" width="1145" height="1023" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -513,68 +716,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bash-scripts.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bash-scripts.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/cctx/templates/form.html.twig" />
-    <entry file="file://$PROJECT_DIR$/bash-scripts.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/cctx/templates/form.html.twig" />
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/cctx/js/theme.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/system/templates/form.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/cctx/templates/input.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/cctx/templates/form-element-label.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/water-calculator/index.html" />
     <entry file="file://$PROJECT_DIR$/themes/cctx/templates/paragraph--featured_content.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-240">
@@ -586,13 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-183">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/cctx/templates/views-bootstrap-tab.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="29" column="10" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -616,13 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="970">
           <caret line="635" column="0" lean-forward="false" selection-start-line="635" selection-start-column="0" selection-end-line="635" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/cctx/templates/page--front.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="955">
-          <caret line="495" column="0" lean-forward="false" selection-start-line="495" selection-start-column="0" selection-end-line="495" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -689,20 +816,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/cctx/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="5518" column="1" lean-forward="false" selection-start-line="5518" selection-start-column="1" selection-end-line="5518" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#211#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -793,40 +910,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bash-scripts.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1072">
-          <caret line="67" column="38" lean-forward="false" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/cctx/templates/form.html.twig" />
-    <entry file="file://$PROJECT_DIR$/themes/cctx/cctx.libraries.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/corpus-christi-water-calculator/Semantic-UI-CSS-master/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="112">
             <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/corpus-christi-water-calculator/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/corpus-christi-water-calculator/water-calculator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="62" column="26" lean-forward="false" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/corpus-christi-water-calculator/iframe-content.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="1110" column="0" lean-forward="true" selection-start-line="1110" selection-start-column="0" selection-end-line="1110" selection-end-column="0" />
+        <state relative-caret-position="563">
+          <caret line="1110" column="0" lean-forward="false" selection-start-line="1110" selection-start-column="0" selection-end-line="1110" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -834,52 +950,140 @@
     <entry file="file://$USER_HOME$/corpus-christi-water-calculator/show-examples.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/corpus-christi-water-calculator/water-calculator.html">
+    <entry file="file://$PROJECT_DIR$/themes/cctx/cctx.libraries.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+        <state relative-caret-position="944">
+          <caret line="77" column="37" lean-forward="true" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/corpus-christi-water-calculator/index.php">
+    <entry file="file://$USER_HOME$/corpus-christi-water-calculator/frontend/scss/objects/_gsc-search-block.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/corpus-christi-water-calculator/frontend/partials/tweet-block.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/cctx/css/Semantic-UI-CSS-master/semantic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/cctx/templates/page--front.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1525363736032" expanded="true" signature="7126:7242" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/cctx/templates/views-bootstrap-tab.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="122" lean-forward="false" selection-start-line="19" selection-start-column="122" selection-end-line="19" selection-end-column="122" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/jquery.cycle/jquery.cycle.all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="114" column="23" lean-forward="true" selection-start-line="114" selection-start-column="23" selection-end-line="114" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/corpus-christi-water-calculator/views/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/corpus-christi-water-calculator/scripts/deploy-production">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/contrib/colorbox/config/install/colorbox.settings.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="11" column="49" lean-forward="false" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="71" />
-          <folding>
-            <element signature="e#20035#20120#0#PHP" expanded="true" />
-            <marker date="1523478698281" expanded="false" signature="13064:13078" ph="..." />
-            <marker date="1523478698281" expanded="false" signature="13427:13449" ph="..." />
-            <marker date="1523478698281" expanded="false" signature="14692:14729" ph="..." />
-            <marker date="1523478698281" expanded="false" signature="15099:15136" ph="..." />
-            <marker date="1523478698281" expanded="false" signature="15545:15582" ph="..." />
-            <marker date="1523478698281" expanded="false" signature="15970:16007" ph="..." />
-            <marker date="1523478698281" expanded="false" signature="16325:16343" ph="..." />
-            <marker date="1523478698281" expanded="false" signature="16614:16620" ph=" " />
-            <marker date="1523478698281" expanded="false" signature="16770:16785" ph="..." />
-            <marker date="1523478698281" expanded="false" signature="17013:17028" ph="..." />
-            <marker date="1523478698281" expanded="false" signature="17260:17275" ph="..." />
-            <marker date="1523478698281" expanded="false" signature="17508:17523" ph="..." />
-            <marker date="1523478698281" expanded="false" signature="17533:17537" ph="&gt;" />
-            <marker date="1523478698281" expanded="false" signature="17743:17749" ph=" " />
-            <marker date="1523478698281" expanded="false" signature="17977:17983" ph=" " />
-            <marker date="1523478698281" expanded="false" signature="18009:18015" ph=" " />
-            <marker date="1523478698281" expanded="false" signature="18041:18047" ph=" " />
-            <marker date="1523478698281" expanded="false" signature="18148:18163" ph="..." />
-            <marker date="1523478698281" expanded="false" signature="18344:18350" ph=" " />
-            <marker date="1523478698281" expanded="false" signature="18512:18527" ph="..." />
-            <marker date="1523478698281" expanded="false" signature="18706:18712" ph=" " />
-            <marker date="1523478698281" expanded="false" signature="18865:18871" ph=" " />
-            <marker date="1523478698281" expanded="false" signature="18897:18903" ph=" " />
-            <marker date="1523478698281" expanded="false" signature="18929:18935" ph=" " />
-            <marker date="1523478698281" expanded="false" signature="19003:19018" ph="..." />
-            <marker date="1523478698281" expanded="false" signature="19092:19098" ph=" " />
-          </folding>
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/corpus-christi-water-calculator/scripts/deploy-sbx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/cctx/css/drupal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/cctx/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="655" column="21" lean-forward="true" selection-start-line="655" selection-start-column="21" selection-end-line="655" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bash-scripts.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

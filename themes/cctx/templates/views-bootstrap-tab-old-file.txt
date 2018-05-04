@@ -1,0 +1,40 @@
+{% if title is not empty %}
+    <h3>{{ title }}</h3>
+{% endif %}
+<div class="row main-row">
+    <div class="col-xl-8">
+        <div class="main-news">
+            <div class="row no-gutters">
+                <div class="col-md-4 col-xl-3">
+                    <ul class="nav nav-{{ tab_type }} {% if justified %}nav-justified{% endif %}" id="pills-tab" role="tablist">
+                        {% for key, tab in tabs %}
+                        {% set tab_classes = [loop.first ? 'active'] %}
+                        <li class="nav-item {{ tab_classes|join(' ') }}">
+                             <a href="{{ "#tab-#{  id }-#{ key }" }}" data-toggle="tab">{{ tab }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="col-md-8 col-xl-9">
+                    <div class="tab-content" id="pills-tabContent"> 
+                        {% for key, row in rows %}
+                        {% set row_classes = ['tab-pane', loop.first ? 'active'] %}
+                        <div class="tab-pane fade{{ row_classes|join(' ') }}" id="tab-{{ id }}-{{ key }}" {{ row.attributes }}>
+                        {{ row.content }}
+                        </div>
+                    {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <div class="col-xl-4">
+      <dd>{{ drupal_block('sliderlinks', false) }}</dd>
+
+   
+    </div>
+   
+</div>
+
+
