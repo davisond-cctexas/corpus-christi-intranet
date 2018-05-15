@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * @file
+ * Contains \Drupal\webprofiler\StackMiddleware\WebprofilerMiddleware.
+ */
+
 namespace Drupal\webprofiler\StackMiddleware;
 
 use Drupal\Core\Database\Database;

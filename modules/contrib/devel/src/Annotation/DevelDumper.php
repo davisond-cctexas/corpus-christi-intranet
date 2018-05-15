@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * @file
+ * Contains \Drupal\devel\Annotation\DevelDumper.
+ */
+
 namespace Drupal\devel\Annotation;
 
 use Drupal\Component\Annotation\Plugin;

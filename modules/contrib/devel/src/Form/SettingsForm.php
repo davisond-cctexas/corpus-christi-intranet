@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * @file
+ * Contains \Drupal\devel\Form\SettingsForm.
+ */
+
 namespace Drupal\devel\Form;
 
 use Drupal\Core\Form\ConfigFormBase;
@@ -63,6 +68,10 @@ class SettingsForm extends ConfigFormBase {
     $current_url = Url::createFromRequest($request);
     $devel_config = $this->config('devel.settings');
 
+    $form['api_url'] = array('#type' => 'textfield',
+      '#title' => t('API Site'),
+      '#default_value' => $devel_config->get('api_url'),
+      '#description' => t('The base URL for your developer documentation links. You might change this if you run <a href=":url">api.module</a> locally.', array(':url' => Url::fromUri('http://drupal.org/project/api')->toString())));
     $form['page_alter'] = array('#type' => 'checkbox',
       '#title' => t('Display $page array'),
       '#default_value' => $devel_config->get('page_alter'),
@@ -72,12 +81,6 @@ class SettingsForm extends ConfigFormBase {
       '#title' => t('Display machine names of permissions and modules'),
       '#default_value' => $devel_config->get('raw_names'),
       '#description' => t('Display the language-independent machine names of the permissions in mouse-over hints on the <a href=":permissions_url">Permissions</a> page and the module base file names on the Permissions and <a href=":modules_url">Modules</a> pages.', array(':permissions_url' => Url::fromRoute('user.admin_permissions')->toString(), ':modules_url' => Url::fromRoute('system.modules_list')->toString())),
-    );
-    $form['rebuild_theme'] = array(
-      '#type' => 'checkbox',
-      '#title' => $this->t('Rebuild the theme registry on every page load'),
-      '#description' => $this->t('New templates, theme overrides, and changes to the theme.info.yml need the theme registry to be rebuilt in order to appear on the site.'),
-      '#default_value' => $devel_config->get('rebuild_theme'),
     );
 
     $error_handlers = devel_get_handlers();
@@ -122,6 +125,13 @@ class SettingsForm extends ConfigFormBase {
       $request->query->remove('demo');
     }
 
+    $form['rebuild_theme'] = array(
+     '#type' => 'checkbox',
+     '#title' => t('Rebuild the theme information like the registry'),
+     '#description' => t('While creating new templates, change the $theme.info.yml and theme_ overrides the theme information needs to be rebuilt.'),
+     '#default_value' => $devel_config->get('rebuild_theme'),
+    );
+
     $dumper = $devel_config->get('devel_dumper');
     $default = $this->dumperManager->isPluginSupported($dumper) ? $dumper : $this->dumperManager->getFallbackPluginId(NULL);
 
@@ -158,6 +168,7 @@ class SettingsForm extends ConfigFormBase {
   public function submitForm(array &$form, FormStateInterface $form_state) {
     $values = $form_state->getValues();
     $this->config('devel.settings')
+      ->set('api_url', $values['api_url'])
       ->set('page_alter', $values['page_alter'])
       ->set('raw_names', $values['raw_names'])
       ->set('error_handlers', $values['error_handlers'])

@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * @file
+ * Contains \Drupal\devel\Plugin\Menu\DestinationMenuLink.
+ */
+
 namespace Drupal\devel\Plugin\Menu;
 
 use Drupal\Core\Menu\MenuLinkDefault;

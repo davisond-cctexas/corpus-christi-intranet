@@ -24,4 +24,18 @@ if (file_exists($local_settings)) {
   include $local_settings;
 }
 
+$settings['update_free_access'] = TRUE;
+
 $config_directories[CONFIG_SYNC_DIRECTORY] = 'sites/default/config/sync';
+$databases['default']['default'] = array (
+  'database' => 'drupal8',
+  'username' => 'root',
+  'password' => 'root',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
+$settings['hash_salt'] = 'BAm7FtQeCG1-fZsaf9-tIPUFL7zDea-kAY1RIDVHBVHyUIOsKM-I5dqN4Dwo1vPE-gphdV0KCw';
+$settings['install_profile'] = 'standard';

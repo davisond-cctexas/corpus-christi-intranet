@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * @file
+ * Contains \Drupal\devel\DevelDumperPluginManagerInterface.
+ */
+
 namespace Drupal\devel;
 
 use Drupal\Component\Plugin\FallbackPluginManagerInterface;

@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * @file
+ * Contains \Drupal\devel\DevelDumperManager.
+ */
+
 namespace Drupal\devel;
 
 use Drupal\Core\Config\ConfigFactoryInterface;

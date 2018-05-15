@@ -1,3 +1,4 @@
+api_url: 'api.drupal.org'
 page_alter: FALSE
 raw_names: FALSE
 error_handlers:

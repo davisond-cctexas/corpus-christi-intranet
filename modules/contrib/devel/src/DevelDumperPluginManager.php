@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * @file
+ * Contains \Drupal\devel\DevelDumperPluginManager.
+ */
+
 namespace Drupal\devel;
 
 use Drupal\Core\Cache\CacheBackendInterface;

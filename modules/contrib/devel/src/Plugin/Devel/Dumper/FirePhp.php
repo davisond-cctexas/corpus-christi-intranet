@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * @file
+ * Contains \Drupal\devel\Plugin\Devel\Dumper\FirePhp.
+ */
+
 namespace Drupal\devel\Plugin\Devel\Dumper;
 
 use Drupal\devel\DevelDumperBase;
@@ -19,8 +24,7 @@ class FirePhp extends DevelDumperBase {
    * {@inheritdoc}
    */
   public function dump($input, $name = NULL) {
-    $fb = new \FB();
-    $fb->dump($name, $input);
+    fb($input);
   }
 
   /**
@@ -35,7 +39,7 @@ class FirePhp extends DevelDumperBase {
    * {@inheritdoc}
    */
   public static function checkRequirements() {
-    return class_exists('FirePHP', TRUE);
+    return class_exists('FirePHP', FALSE);
   }
 
 }
